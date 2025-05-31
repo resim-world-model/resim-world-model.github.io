@@ -48,13 +48,13 @@ export default function Home() {
 
 
 
-            <div className="w-full h-screen flex flex-col p-20 snap-start">
-                <div className="w-full h-1/6 flex flex-row justify-center items-center">
+            <div className="w-full h-screen flex flex-col p-20 snap-start gap-10">
+                <div className="w-full h-32 flex flex-row justify-center items-center">
                     <h1 className="text-t1 font-bold">
                         Action Control
                     </h1>
                 </div>
-                <div className="w-full h-5/6 flex flex-row justify-center items-center">
+                <div className="w-full h-full flex flex-row justify-center items-center">
                     <div className="w-1/4 h-full flex flex-col gap-20 justify-evenly items-center">
                         <h2 className="text-3xl font-bold">
                             nuScenes
@@ -87,13 +87,13 @@ export default function Home() {
 
 
 
-            <div className="w-full h-screen flex flex-col p-10 snap-start gap-10">
-                <div className="w-full h-1/6 flex flex-col justify-center items-center">
+            <div className="w-full h-screen flex flex-col p-20 snap-start gap-10">
+                <div className="w-full h-32 flex flex-col justify-center items-center">
                     <h1 className="text-t1 font-bold">
                         Action Control
                     </h1>
                 </div>
-                <div className="w-full h-5/6 flex flex-row justify-center items-center">
+                <div className="w-full h-full flex flex-row justify-center items-center">
                     <div className="w-1/4 h-full flex flex-col gap-20 justify-evenly items-center">
                         <h2 className="text-3xl font-bold">
                             Waymo
@@ -126,13 +126,13 @@ export default function Home() {
 
 
 
-            <div className="w-full h-screen flex flex-col p-10 snap-start gap-10">
-                <div className="w-full h-1/6 flex flex-col justify-center items-center">
+            <div className="w-full h-screen flex flex-col p-20 snap-start gap-10">
+                <div className="w-full h-32 flex flex-col justify-center items-center">
                     <h1 className="text-t1 font-bold">
                         Action-Free
                     </h1>
                 </div>
-                <div className="w-full h-5/6 flex flex-row justify-center items-center">
+                <div className="w-full h-full flex flex-row justify-center items-center">
                     <div className="w-1/4 h-full flex flex-col gap-20 justify-between items-center">
                         <div className="flex-1 flex flex-col justify-center">
                             <h2 className="text-3xl font-bold">
@@ -187,13 +187,13 @@ export default function Home() {
 
 
 
-            <div className="w-full h-screen flex flex-col p-10 snap-start gap-10">
-                <div className="w-full h-1/6 flex flex-col justify-center items-center">
+            <div className="w-full h-screen flex flex-col p-20 snap-start gap-10">
+                <div className="w-full h-32 flex flex-col justify-center items-center">
                     <h1 className="text-t1 font-bold">
                         Long Horizon
                     </h1>
                 </div>
-                <div className="w-full h-5/6 flex flex-row justify-center items-center">
+                <div className="w-full h-full flex flex-row justify-center items-center">
                     <div className="w-full h-full flex flex-col gap-20 justify-evenly items-center">
                         <video
                             preload="none"
@@ -221,13 +221,13 @@ export default function Home() {
 
 
 
-            <div className="w-full h-screen flex flex-col p-10 snap-start gap-10">
-                <div className="w-full h-1/6 flex flex-col justify-center items-center">
+            <div className="w-full h-screen flex flex-col p-20 snap-start gap-10">
+                <div className="w-full h-32 flex flex-col justify-center items-center">
                     <h1 className="text-t1 font-bold">
                         Comparison
                     </h1>
                 </div>
-                <div className="w-full h-5/6 flex flex-row justify-center items-center">
+                <div className="w-full h-full flex flex-row justify-center items-center">
                     <div className="w-full h-full flex flex-col gap-20 justify-evenly items-center">
                         <video
                             preload="none"
