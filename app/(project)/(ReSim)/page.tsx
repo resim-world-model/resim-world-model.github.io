@@ -44,6 +44,7 @@ export default function Home() {
                         <h2 className="w-full">
                             Jiazhi Yang
                         </h2>
+                        <span>你先写内容，然后我再拍版</span>
                     </div>
                 </div>
 
