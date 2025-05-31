@@ -18,11 +18,11 @@ import { AspectRatio } from "@/components/ui/aspect-ratio"
 
 export default function Home() {
     return (
-        <main className="w-full overflow-hidden">
+        <main className="w-full h-screen overflow-x-hidden overflow-y-scroll snap-y snap-mandatory">
 
 
 
-            <div className="w-full h-full flex flex-col lg:flex-row gap-10 lg:gap-20 justify-center items-center p-20">
+            <div className="w-full h-screen flex flex-col lg:flex-row gap-10 lg:gap-20 justify-center items-center p-20 snap-start">
                 
                 <div className="flex-1/2  h-full flex flex-col justify-center select-none">
                     <AspectRatio ratio={16/9}>
@@ -37,6 +37,37 @@ export default function Home() {
 
 
                 <div className="flex-1/2 flex flex-col gap-10 justify-around select-none">
+                    <div className="flex flex-col gap-10 w-full">
+                        <h1 className="text-t1 font-bold w-full">
+                            Resim xxx
+                        </h1>
+                        <h2 className="w-full">
+                            Jiazhi Yang
+                        </h2>
+                    </div>
+                </div>
+
+                
+
+            </div>
+
+
+
+            <div className="w-full h-screen flex flex-col lg:flex-row gap-10 lg:gap-20 justify-center items-center p-20 snap-start">
+                
+                <div className="flex-1/2  h-full flex flex-col justify-center select-none">
+                    <AspectRatio ratio={16/9}>
+                        <Image
+                            src="https://ik.imagekit.io/opendrivelab/univla"
+                            alt="ReSim"
+                            fill
+                            className="rounded-sm object-cover bg-gradient-landing"
+                        />
+                    </AspectRatio>
+                </div>
+
+
+                <div className="flex-1/2 flex flex-col gap-10 justify-around select-none snap-start">
                     <div className="flex flex-col gap-10 w-full">
                         <h1 className="text-t1 font-bold w-full">
                             Resim xxx
