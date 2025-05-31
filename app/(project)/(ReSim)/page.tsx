@@ -49,33 +49,39 @@ export default function Home() {
 
 
             <div className="w-full h-screen flex flex-col p-20 snap-start">
-                <div className="w-full h-1/5 flex flex-col gap-6 justify-center items-center">
+                <div className="w-full h-1/5 flex flex-row justify-center items-center">
                     <h1 className="text-t1 font-bold">
                         Action Control
                     </h1>
-                    <span>on nuScenes dataset</span>
                 </div>
-                <div className=" w-full h-4/5 flex flex-col justify-evenly items-center">
-                    <video
-                        preload="none"
-                        autoPlay
-                        loop
-                        muted
-                        playsInline
-                        className="w-1/3 object-fit rounded-sm bg-gradient-landing"
-                        >
-                        <source src="https://opendrivelab.github.io/ReSim/action_control/nuScenes1.mp4"/>
-                    </video>
-                    <video
-                        preload="none"
-                        autoPlay
-                        loop
-                        muted
-                        playsInline
-                        className="w-1/3 object-fit rounded-sm bg-gradient-landing"
-                        >
-                        <source src="https://opendrivelab.github.io/ReSim/action_control/nuScenes2.mp4"/>
-                    </video>
+                <div className="w-full h-4/5 flex flex-row justify-center items-center">
+                    <div className="w-1/4 h-full flex flex-col gap-20 justify-evenly items-center">
+                        <h2 className="text-3xl font-bold">
+                            nuScenes
+                        </h2>
+                    </div>
+                    <div className="w-3/4 h-full flex flex-col gap-20 justify-evenly items-center">
+                        <video
+                            preload="none"
+                            autoPlay
+                            loop
+                            muted
+                            playsInline
+                            className="w-1/3 object-fit rounded-sm bg-gradient-landing"
+                            >
+                            <source src="https://opendrivelab.github.io/ReSim/action_control/nuScenes1.mp4"/>
+                        </video>
+                        <video
+                            preload="none"
+                            autoPlay
+                            loop
+                            muted
+                            playsInline
+                            className="w-1/3 object-fit rounded-sm bg-gradient-landing"
+                            >
+                            <source src="https://opendrivelab.github.io/ReSim/action_control/nuScenes2.mp4"/>
+                        </video>
+                    </div>
                 </div>
             </div>
 
@@ -86,29 +92,35 @@ export default function Home() {
                     <h1 className="text-t1 font-bold">
                         Action Control
                     </h1>
-                    <span>on Waymo dataset</span>
                 </div>
-                <div className=" w-full h-4/5 flex flex-col justify-evenly items-center">
-                    <video
-                        preload="none"
-                        autoPlay
-                        loop
-                        muted
-                        playsInline
-                        className="w-1/3 object-fit rounded-sm bg-gradient-landing"
-                        >
-                        <source src="https://opendrivelab.github.io/ReSim/action_control/Waymo1.mp4"/>
-                    </video>
-                    <video
-                        preload="none"
-                        autoPlay
-                        loop
-                        muted
-                        playsInline
-                        className="w-1/3 object-fit rounded-sm bg-gradient-landing"
-                        >
-                        <source src="https://opendrivelab.github.io/ReSim/action_control/Waymo2.mp4"/>
-                    </video>
+                <div className="w-full h-4/5 flex flex-row justify-center items-center">
+                    <div className="w-1/4 h-full flex flex-col gap-20 justify-evenly items-center">
+                        <h2 className="text-3xl font-bold">
+                            Waymo
+                        </h2>
+                    </div>
+                    <div className="w-3/4 h-full flex flex-col gap-20 justify-evenly items-center">
+                        <video
+                            preload="none"
+                            autoPlay
+                            loop
+                            muted
+                            playsInline
+                            className="w-1/3 object-fit rounded-sm bg-gradient-landing"
+                            >
+                            <source src="https://opendrivelab.github.io/ReSim/action_control/Waymo1.mp4"/>
+                        </video>
+                        <video
+                            preload="none"
+                            autoPlay
+                            loop
+                            muted
+                            playsInline
+                            className="w-1/3 object-fit rounded-sm bg-gradient-landing"
+                            >
+                            <source src="https://opendrivelab.github.io/ReSim/action_control/Waymo2.mp4"/>
+                        </video>
+                    </div>
                 </div>
             </div>
 
@@ -120,54 +132,46 @@ export default function Home() {
                         Action-Free
                     </h1>
                 </div>
-                <div className=" w-full h-4/5 flex flex-col justify-evenly items-center">
-                    <div className="w-full flex flex-row gap-20 justify-evenly">
-                        <div className="w-1/5 h-full flex flex-col justify-center items-center">
-                            <h2 className="text-3xl font-bold">
-                                NAVSIM
-                            </h2>
-                        </div>
+                <div className="w-full h-4/5 flex flex-row justify-center items-center">
+                    <div className="w-1/4 h-full flex flex-col gap-20 justify-evenly items-center">
+                        <h2 className="text-3xl font-bold">
+                            NAVSIM
+                        </h2>
+                        <h2 className="text-3xl font-bold">
+                            nuScenes
+                        </h2>
+                        <h2 className="text-3xl font-bold">
+                            Waymo
+                        </h2>
+                    </div>
+                    <div className="w-3/4 h-full flex flex-col gap-20 justify-evenly items-center">
                         <video
                             preload="none"
                             autoPlay
                             loop
                             muted
                             playsInline
-                            className="w-1/4 object-fit rounded-sm bg-gradient-landing"
+                            className="w-1/3 object-fit rounded-sm bg-gradient-landing"
                             >
                             <source src="https://opendrivelab.github.io/ReSim/action_free/NAVSIM.mp4"/>
                         </video>
-                    </div>
-                    <div className="w-full flex flex-row gap-20 justify-evenly">
-                        <div className="w-1/5 h-full flex flex-col justify-center items-center">
-                            <h2 className="text-3xl font-bold">
-                                nuScenes
-                            </h2>
-                        </div>
                         <video
                             preload="none"
                             autoPlay
                             loop
                             muted
                             playsInline
-                            className="w-1/4 object-fit rounded-sm bg-gradient-landing"
+                            className="w-1/3 object-fit rounded-sm bg-gradient-landing"
                             >
                             <source src="https://opendrivelab.github.io/ReSim/action_free/nuScenes.mp4"/>
                         </video>
-                    </div>
-                    <div className="w-full flex flex-row gap-20 justify-evenly">
-                        <div className="w-1/5 h-full flex flex-col justify-center items-center">
-                            <h2 className="text-3xl font-bold">
-                                Waymo
-                            </h2>
-                        </div>
                         <video
                             preload="none"
                             autoPlay
                             loop
                             muted
                             playsInline
-                            className="w-1/4 object-fit rounded-sm bg-gradient-landing"
+                            className="w-1/3 object-fit rounded-sm bg-gradient-landing"
                             >
                             <source src="https://opendrivelab.github.io/ReSim/action_free/Waymo.mp4"/>
                         </video>
