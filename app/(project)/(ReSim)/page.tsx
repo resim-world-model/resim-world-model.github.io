@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
 export const metadata: Metadata = {
-  title: "FreeTacMan | OpenDriveLab",
-  description: "FreeTacMan",
-  keywords: ["FreeTacMan", "OpenDriveLab", "HKU", "SII"],
+  title: "ReSim | OpenDriveLab",
+  description: "ReSim",
+  keywords: ["ReSim", "OpenDriveLab", "HKU", "SII"],
 };
 
 import Link from "next/link";
-import { MobileNav } from "./components/MobileNav";
 import {
   Card,
   CardContent,

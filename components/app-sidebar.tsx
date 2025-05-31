@@ -94,16 +94,16 @@ export function AppSidebar() {
                                 </CollapsibleTrigger>
                                 <CollapsibleContent>
                                     <SidebarMenuSub>
-                                        <Link href="/blog/agibot-world" className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
+                                        <Link target='_blank' href="https://opendrivelab.com/blog/agibot-world" className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
                                             AgiBot World
                                         </Link>
-                                        <Link href="/vista" target="_blank" className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
+                                        <Link target='_blank' href="https://opendrivelab.com/vista" target="_blank" className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
                                             OpenDV
                                         </Link>
-                                        <Link href="/drivelm" target="_blank" className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
+                                        <Link target='_blank' href="https://opendrivelab.com/drivelm" target="_blank" className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
                                             DriveLM
                                         </Link>
-                                        <Link href="/dataset"  className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
+                                        <Link target='_blank' href="https://opendrivelab.com/dataset"  className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
                                             more
                                         </Link>
                                     </SidebarMenuSub>
@@ -121,7 +121,7 @@ export function AppSidebar() {
                                 </CollapsibleTrigger>
                                 <CollapsibleContent>
                                     <SidebarMenuSub>
-                                        <Link href="https://github.com/OpenDriveLab/UniAD" className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
+                                        <Link target='_blank' href="https://github.com/OpenDriveLab/UniAD" className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
                                             UniAD
                                         </Link>
                                         <Link href="https://github.com/OpenDriveLab/UniVLA" target="_blank" className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
@@ -130,7 +130,7 @@ export function AppSidebar() {
                                         <Link href="https://www.computer.org/csdl/journal/tp/2025/03/10791908/22ABgP6PlUQ" target="_blank" className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
                                             BEVFormer
                                         </Link>
-                                        <Link href="/publications"  className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
+                                        <Link target='_blank' href="https://opendrivelab.com/publications"  className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
                                             more
                                         </Link>
                                     </SidebarMenuSub>
@@ -148,16 +148,16 @@ export function AppSidebar() {
                                 </CollapsibleTrigger>
                                 <CollapsibleContent>
                                     <SidebarMenuSub>
-                                        <Link href="/challenge2025" className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
+                                        <Link target='_blank' href="https://opendrivelab.com/iccv2025/workshop/" className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
+                                            ICCV 2025 Workshop
+                                        </Link>
+                                        <Link target='_blank' href="https://opendrivelab.com/challenge2025" className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
                                             Challenge 2025
                                         </Link>
-                                        <Link href="/cvpr2025" className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
+                                        <Link target='_blank' href="https://opendrivelab.com/cvpr2025" className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
                                             Events at CVPR 2025
                                         </Link>
-                                        <Link href="https://sagroups.ieee.org/3474/" target="_blank" className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
-                                            IEEE Standard P3474
-                                        </Link>
-                                        <Link href="/events"  className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
+                                        <Link target='_blank' href="https://opendrivelab.com/events"  className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
                                             more
                                         </Link>
                                     </SidebarMenuSub>
@@ -167,13 +167,13 @@ export function AppSidebar() {
 
 
 
-                        <Link href="/team"  className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
+                        <Link target='_blank' href="https://opendrivelab.com/team"  className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
                             Team
                         </Link>
 
 
 
-                        <Link href="/recruit"  className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
+                        <Link target='_blank' href="https://opendrivelab.com/recruit"  className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
                             Recruit
                         </Link>
 
