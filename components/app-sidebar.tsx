@@ -97,10 +97,10 @@ export function AppSidebar() {
                                         <Link target='_blank' href="https://opendrivelab.com/blog/agibot-world" className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
                                             AgiBot World
                                         </Link>
-                                        <Link target='_blank' href="https://opendrivelab.com/vista" target="_blank" className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
+                                        <Link target='_blank' href="https://opendrivelab.com/vista" className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
                                             OpenDV
                                         </Link>
-                                        <Link target='_blank' href="https://opendrivelab.com/drivelm" target="_blank" className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
+                                        <Link target='_blank' href="https://opendrivelab.com/drivelm"  className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
                                             DriveLM
                                         </Link>
                                         <Link target='_blank' href="https://opendrivelab.com/dataset"  className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
