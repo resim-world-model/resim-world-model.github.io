@@ -22,8 +22,8 @@ export default function Home() {
 
 
 
-            <div className="w-full h-screen flex flex-col lg:flex-row gap-10 lg:gap-20 justify-center items-center p-20 snap-start">
-                <div className="flex-1/2  h-full flex flex-col justify-center select-none">
+            <div className="w-full h-screen flex flex-col xl:flex-row gap-10 xl:gap-20 justify-center items-center p-20 pt-64 xl:pt-20 snap-start">
+                <div className="flex-1/2 h-1/3 w-full xl:h-full flex flex-col justify-center select-none">
                     <AspectRatio ratio={16/9}>
                         <Image
                             src="https://ik.imagekit.io/opendrivelab/univla"
@@ -36,10 +36,10 @@ export default function Home() {
                 <div className="flex-1/2 flex flex-col gap-3 justify-around">
                     <div className="flex flex-col gap-10 w-full">
                         <div className="flex flex-col gap-3">
-                            <h1 className="text-9xl font-bold w-full color-text-1">
+                            <h1 className="text-7xl 2xl:text-9xl font-bold w-full color-text-1">
                                 ReSim
                             </h1>
-                            <h1 className="text-6xl font-bold w-full  color-text-1 pb-3">
+                            <h1 className="text-4xl 2xl:text-6xl font-bold w-full  color-text-1 pb-3">
                                 Reliable World Simulation for Autonomous Driving
                             </h1>
                         </div>
