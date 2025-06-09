@@ -114,6 +114,8 @@ export default function Home() {
                 </h1>
             </div>
 
+
+
             <div className="w-full px-6 flex flex-col justify-center gap-20 items-center">
                 <video
                     preload="none"
@@ -138,39 +140,39 @@ export default function Home() {
             </div>
 
 
-            <div className="w-full h-32 flex flex-col justify-center items-center">
+
+            <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-32">
                 <h1 className="text-t1 font-bold" id="action_control_waymo">
                     Action Control
                 </h1>
+                <h1 className="text-3xl font-bold">
+                    Waymo (Zero-shot)
+                </h1>
             </div>
-            <div className="w-full h-full flex flex-row justify-center items-center">
-                <div className="w-1/4 h-full flex flex-col gap-20 justify-evenly items-center">
-                    <h2 className="text-3xl font-bold">
-                        Waymo (Zero-shot)
-                    </h2>
-                </div>
-                <div className="w-3/4 h-full flex flex-col gap-20 justify-evenly items-center">
-                    <video
-                        preload="none"
-                        autoPlay
-                        loop
-                        muted
-                        playsInline
-                        className="w-3/4 object-fit rounded-sm bg-gradient-landing"
-                        >
-                        <source src="https://opendrivelab.github.io/ReSim/action_control/Waymo1.mp4"/>
-                    </video>
-                    <video
-                        preload="none"
-                        autoPlay
-                        loop
-                        muted
-                        playsInline
-                        className="w-3/4 object-fit rounded-sm bg-gradient-landing"
-                        >
+
+
+
+            <div className="w-full px-6 flex flex-col justify-center gap-20 items-center">
+                <video
+                    preload="none"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="w-full max-w-[1280px] rounded-sm bg-gradient-landing"
+                    >
+                    <source src="https://opendrivelab.github.io/ReSim/action_control/Waymo1.mp4"/>
+                </video>
+                <video
+                    preload="none"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="w-full max-w-[1280px] rounded-sm bg-gradient-landing"
+                    >
                         <source src="https://opendrivelab.github.io/ReSim/action_control/Waymo2.mp4"/>
-                    </video>
-                </div>
+                </video>
             </div>
 
 
