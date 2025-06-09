@@ -114,38 +114,28 @@ export default function Home() {
                 </h1>
             </div>
 
-
-
-            <div className="w-full h-full flex flex-row justify-center items-center">
-                <div className="w-1/4 h-full flex flex-col justify-evenly items-center">
-                    <h2 className="text-3xl font-bold">
-                        nuScenes (Zero-shot)
-                    </h2>
-                </div>
-                <div className="w-3/4 h-full flex flex-col justify-evenly items-center">
-                    <video
-                        preload="none"
-                        autoPlay
-                        loop
-                        muted
-                        playsInline
-                        className="w-3/4 object-fit rounded-sm bg-gradient-landing"
-                        >
-                        <source src="https://opendrivelab.github.io/ReSim/action_control/nuScenes1.mp4"/>
-                    </video>
-                    <video
-                        preload="none"
-                        autoPlay
-                        loop
-                        muted
-                        playsInline
-                        className="w-3/4 object-fit rounded-sm bg-gradient-landing"
-                        >
-                        <source src="https://opendrivelab.github.io/ReSim/action_control/nuScenes2.mp4"/>
-                    </video>
-                </div>
+            <div className="w-full px-6 flex flex-col justify-center gap-20 items-center">
+                <video
+                    preload="none"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="w-full max-w-[1280px] rounded-sm bg-gradient-landing"
+                    >
+                    <source src="https://opendrivelab.github.io/ReSim/action_control/nuScenes1.mp4"/>
+                </video>
+                <video
+                    preload="none"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="w-full max-w-[1280px] rounded-sm bg-gradient-landing"
+                    >
+                    <source src="https://opendrivelab.github.io/ReSim/action_control/nuScenes2.mp4"/>
+                </video>
             </div>
-
 
 
             <div className="w-full h-32 flex flex-col justify-center items-center">
@@ -254,6 +244,7 @@ export default function Home() {
             </div>
 
 
+
             <div className="w-full px-6 flex flex-col justify-center gap-20 items-center">
                 <video
                     preload="none"
@@ -310,7 +301,7 @@ export default function Home() {
 
             <footer className="w-full mb-24 flex flex-col gab-10  ">
                 <div className="w-full pl-6 pr-6 flex flex-row justify-center mt-24">
-                    <div className="max-w-4xl w-full flex flex-row justify-between">
+                    <div className="max-w-[1024px] w-full flex flex-row justify-between">
                         <div className="flex-1 flex flex-col justify-start">
                             <span className="select-none">Resim © 2025</span>
                         </div>
