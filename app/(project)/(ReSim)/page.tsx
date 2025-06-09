@@ -43,17 +43,28 @@ export default function Home() {
                                 Reliable World Simulation for Autonomous Driving
                             </h1>
                         </div>
-                        <h2 className="text-2xl w-full">
-                            <a href="https://github.com/YTEP-ZHI" className="hover:underline">Jiazhi Yang</a>,{' '}
-                            <a href="https://kashyap7x.github.io/" className="hover:underline">Kashyap Chitta</a>,{' '}
-                            <a href="https://github.com/Little-Podi" className="hover:underline">Shenyuan Gao</a>,{' '}
-                            <a href="https://long.ooo/" className="hover:underline">Long Chen</a>,{' '}
-                            <a href="https://meteorcollector.github.io/" className="hover:underline">Yuqian Shao</a>,{' '}
-                            <a href="https://jiaxiaosong1002.github.io/" className="hover:underline">Xiaosong Jia</a>,{' '}
-                            <a href="https://lihongyang.info/" className="hover:underline">Hongyang Li</a>,{' '}
-                            <a href="https://www.cvlibs.net/" className="hover:underline">Andreas Geiger</a>,{' '}
-                            <a href="https://xyue.io/" className=" hover:underline">Xiangyu Yue</a>,{' '}
-                            <a href="https://scholar.google.com/citations?user=ulZxvY0AAAAJ&hl=en" className="hover:underline">Li Chen</a>{' '}
+                        <h2 className="text-lg w-full">
+                            <a href="https://github.com/YTEP-ZHI" className="text-o-blue hover:underline">Jiazhi Yang</a><sup className="align-super text-sm">1,6</sup>,{' '}
+                            <a href="https://kashyap7x.github.io/" className="text-o-blue hover:underline">Kashyap Chitta</a><sup className="align-super text-sm">4,7,8</sup>,{' '}
+                            <a href="https://github.com/Little-Podi" className="text-o-blue hover:underline">Shenyuan Gao</a><sup className="align-super text-sm">6</sup>,{' '}
+                            <a href="https://long.ooo/" className="text-o-blue hover:underline">Long Chen</a><sup className="align-super text-sm">3</sup>,{' '}
+                            <a href="https://meteorcollector.github.io/" className="text-o-blue hover:underline">Yuqian Shao</a><sup className="align-super text-sm">5</sup>,{' '}
+                            <a href="https://jiaxiaosong1002.github.io/" className="text-o-blue hover:underline">Xiaosong Jia</a><sup className="align-super text-sm">5</sup>,{' '}
+                            <br/>
+                            <a href="https://lihongyang.info/" className="text-o-blue hover:underline">Hongyang Li</a><sup className="align-super text-sm">2</sup>,{' '}
+                            <a href="https://www.cvlibs.net/" className="text-o-blue hover:underline">Andreas Geiger</a><sup className="align-super text-sm">7,8</sup>,{' '}
+                            <a href="https://xyue.io/" className="text-o-blue hover:underline">Xiangyu Yue</a><sup className="align-super text-sm">1</sup>,{' '}
+                            <a href="https://scholar.google.com/citations?user=ulZxvY0AAAAJ&hl=en" className="text-o-blue hover:underline">Li Chen</a><sup className="align-super text-sm">2</sup>{' '}
+                        </h2>
+                        <h2 className="text-lg w-full -mt-10">
+                            <sup className="align-super text-sm">1</sup>The Chinese University of Hong Kong {' '}
+                            <sup className="align-super text-sm">2</sup>The University of Hong Kong {' '}
+                            <sup className="align-super text-sm">3</sup>Xiaomi EV {' '}
+                            <sup className="align-super text-sm">4</sup>NVIDIA Research {' '}
+                            <sup className="align-super text-sm">5</sup>Shanghai Jiao Tong University {' '}
+                            <sup className="align-super text-sm">6</sup>OpenDriveLab at Shanghai AfI Lab  {' '}
+                            <sup className="align-super text-sm">7</sup>University of Tübingen  {' '}
+                            <sup className="align-super text-sm">8</sup>Tübingen AI Center  {' '}
                         </h2>
                         <p className="text-2xl w-full">
                             arXiv | Code in July
