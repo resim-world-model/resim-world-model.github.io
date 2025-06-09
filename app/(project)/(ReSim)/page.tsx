@@ -104,7 +104,7 @@ export default function Home() {
                             loop
                             muted
                             playsInline
-                            className="w-1/3 object-fit rounded-sm bg-gradient-landing"
+                            className="w-3/4 object-fit rounded-sm bg-gradient-landing"
                             >
                             <source src="https://opendrivelab.github.io/ReSim/action_control/nuScenes1.mp4"/>
                         </video>
@@ -114,7 +114,7 @@ export default function Home() {
                             loop
                             muted
                             playsInline
-                            className="w-1/3 object-fit rounded-sm bg-gradient-landing"
+                            className="w-3/4 object-fit rounded-sm bg-gradient-landing"
                             >
                             <source src="https://opendrivelab.github.io/ReSim/action_control/nuScenes2.mp4"/>
                         </video>
@@ -143,7 +143,7 @@ export default function Home() {
                             loop
                             muted
                             playsInline
-                            className="w-1/3 object-fit rounded-sm bg-gradient-landing"
+                            className="w-3/4 object-fit rounded-sm bg-gradient-landing"
                             >
                             <source src="https://opendrivelab.github.io/ReSim/action_control/Waymo1.mp4"/>
                         </video>
@@ -153,7 +153,7 @@ export default function Home() {
                             loop
                             muted
                             playsInline
-                            className="w-1/3 object-fit rounded-sm bg-gradient-landing"
+                            className="w-3/4 object-fit rounded-sm bg-gradient-landing"
                             >
                             <source src="https://opendrivelab.github.io/ReSim/action_control/Waymo2.mp4"/>
                         </video>
@@ -194,7 +194,7 @@ export default function Home() {
                             loop
                             muted
                             playsInline
-                            className="w-1/3 object-fit rounded-sm bg-gradient-landing"
+                            className="w-2/3 object-fit rounded-sm bg-gradient-landing"
                             >
                             <source src="https://opendrivelab.github.io/ReSim/action_free/NAVSIM.mp4"/>
                         </video>
@@ -204,7 +204,7 @@ export default function Home() {
                             loop
                             muted
                             playsInline
-                            className="w-1/3 object-fit rounded-sm bg-gradient-landing"
+                            className="w-2/3 object-fit rounded-sm bg-gradient-landing"
                             >
                             <source src="https://opendrivelab.github.io/ReSim/action_free/nuScenes.mp4"/>
                         </video>
@@ -214,7 +214,7 @@ export default function Home() {
                             loop
                             muted
                             playsInline
-                            className="w-1/3 object-fit rounded-sm bg-gradient-landing"
+                            className="w-2/3 object-fit rounded-sm bg-gradient-landing"
                             >
                             <source src="https://opendrivelab.github.io/ReSim/action_free/Waymo.mp4"/>
                         </video>
@@ -238,7 +238,7 @@ export default function Home() {
                             loop
                             muted
                             playsInline
-                            className="w-1/8 object-fit rounded-sm bg-gradient-landing"
+                            className="w-full xl:w-2/3 object-fit rounded-sm bg-gradient-landing"
                             >
                             <source src="https://opendrivelab.github.io/ReSim/method_comparisons/comparison1.mp4"/>
                         </video>
@@ -248,7 +248,7 @@ export default function Home() {
                             loop
                             muted
                             playsInline
-                            className="w-1/8 object-fit rounded-sm bg-gradient-landing"
+                            className="w-full xl:w-2/3 rounded-sm bg-gradient-landing"
                             >
                             <source src="https://opendrivelab.github.io/ReSim/method_comparisons/comparison2.mp4"/>
                         </video>
@@ -258,7 +258,7 @@ export default function Home() {
                             loop
                             muted
                             playsInline
-                            className="w-1/8 object-fit rounded-sm bg-gradient-landing"
+                            className="w-full xl:w-2/3 rounded-sm bg-gradient-landing"
                             >
                             <source src="https://opendrivelab.github.io/ReSim/method_comparisons/comparison3.mp4"/>
                         </video>
@@ -268,7 +268,7 @@ export default function Home() {
                             loop
                             muted
                             playsInline
-                            className="w-1/8 object-fit rounded-sm bg-gradient-landing"
+                            className="w-full xl:w-2/3 rounded-sm bg-gradient-landing"
                             >
                             <source src="https://opendrivelab.github.io/ReSim/method_comparisons/comparison4.mp4"/>
                         </video>
