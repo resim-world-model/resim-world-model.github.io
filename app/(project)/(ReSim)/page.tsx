@@ -81,7 +81,7 @@ export default function Home() {
                 </h1>
             </div>
             <div className="flex flex-row justify-center px-6 ">
-                <p className="max-w-[1024px] text-xl text-justify leading-relaxed">
+                <p className="max-w-4xl text-xl text-justify leading-relaxed">
                     How can we reliably simulate future driving scenarios under a wide range of
                     ego driving behaviors? Recent driving world models, developed exclusively on
                     real-world driving data composed mainly of safe expert trajectories, struggle to
@@ -123,7 +123,7 @@ export default function Home() {
                     loop
                     muted
                     playsInline
-                    className="w-full max-w-[1280px] rounded-sm bg-gradient-landing"
+                    className="w-full max-w-7xl rounded-sm bg-gradient-landing"
                     >
                     <source src="https://opendrivelab.github.io/ReSim/action_control/nuScenes1.mp4"/>
                 </video>
@@ -133,7 +133,7 @@ export default function Home() {
                     loop
                     muted
                     playsInline
-                    className="w-full max-w-[1280px] rounded-sm bg-gradient-landing"
+                    className="w-full max-w-7xl rounded-sm bg-gradient-landing"
                     >
                     <source src="https://opendrivelab.github.io/ReSim/action_control/nuScenes2.mp4"/>
                 </video>
@@ -159,7 +159,7 @@ export default function Home() {
                     loop
                     muted
                     playsInline
-                    className="w-full max-w-[1280px] rounded-sm bg-gradient-landing"
+                    className="w-full max-w-7xl rounded-sm bg-gradient-landing"
                     >
                     <source src="https://opendrivelab.github.io/ReSim/action_control/Waymo1.mp4"/>
                 </video>
@@ -169,7 +169,7 @@ export default function Home() {
                     loop
                     muted
                     playsInline
-                    className="w-full max-w-[1280px] rounded-sm bg-gradient-landing"
+                    className="w-full max-w-7xl rounded-sm bg-gradient-landing"
                     >
                         <source src="https://opendrivelab.github.io/ReSim/action_control/Waymo2.mp4"/>
                 </video>
@@ -254,7 +254,7 @@ export default function Home() {
                     loop
                     muted
                     playsInline
-                    className="w-full max-w-[1280px] rounded-sm bg-gradient-landing"
+                    className="w-full max-w-7xl rounded-sm bg-gradient-landing"
                     >
                     <source src="https://opendrivelab.github.io/ReSim/method_comparisons/comparison1.mp4"/>
                 </video>
@@ -264,7 +264,7 @@ export default function Home() {
                     loop
                     muted
                     playsInline
-                    className="w-full max-w-[1280px] rounded-sm bg-gradient-landing"
+                    className="w-full max-w-7xl rounded-sm bg-gradient-landing"
                     >
                     <source src="https://opendrivelab.github.io/ReSim/method_comparisons/comparison2.mp4"/>
                 </video>
@@ -274,7 +274,7 @@ export default function Home() {
                     loop
                     muted
                     playsInline
-                    className="w-full max-w-[1280px] rounded-sm bg-gradient-landing"
+                    className="w-full max-w-7xl rounded-sm bg-gradient-landing"
                     >
                     <source src="https://opendrivelab.github.io/ReSim/method_comparisons/comparison3.mp4"/>
                 </video>
@@ -284,7 +284,7 @@ export default function Home() {
                     loop
                     muted
                     playsInline
-                    className="w-full max-w-[1280px] rounded-sm bg-gradient-landing"
+                    className="w-full max-w-7xl rounded-sm bg-gradient-landing"
                     >
                     <source src="https://opendrivelab.github.io/ReSim/method_comparisons/comparison4.mp4"/>
                 </video>
@@ -303,7 +303,7 @@ export default function Home() {
 
             <footer className="w-full mb-24 flex flex-col gab-10  ">
                 <div className="w-full pl-6 pr-6 flex flex-row justify-center mt-24">
-                    <div className="max-w-[1024px] w-full flex flex-row justify-between">
+                    <div className="max-w-4xl w-full flex flex-row justify-between">
                         <div className="flex-1 flex flex-col justify-start">
                             <span className="select-none">Resim © 2025</span>
                         </div>
