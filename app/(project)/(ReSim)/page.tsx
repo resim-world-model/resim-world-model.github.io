@@ -182,58 +182,66 @@ export default function Home() {
                     Action-Free
                 </h1>
             </div>
+            
 
 
-
-            <div className="w-full h-full flex flex-row justify-center items-center">
-                <div className="w-1/4 h-full flex flex-col gap-20 justify-between items-center">
-                    <div className="flex-1 flex flex-col justify-center">
-                        <h2 className="text-3xl font-bold">
+            <div className="w-full px-6 flex flex-col justify-center gap-20 items-center">
+                <div className="w-full max-w-7xl flex flex-row gap-20">
+                    <div className="flex flex-col justify-center items-center min-w-[128px]">
+                        <h2 className="text-3xl font-bold text-center">
                             NAVSIM
                         </h2>
                     </div>
-                    <div className="flex-1 flex flex-col justify-center">
-                        <h2 className="text-3xl font-bold">
+                    <div>
+                        <video
+                            preload="none"
+                            autoPlay
+                            loop
+                            muted
+                            playsInline
+                            className="w-full object-fit rounded-sm bg-gradient-landing"
+                            >
+                            <source src="https://opendrivelab.github.io/ReSim/action_free/NAVSIM.mp4"/>
+                        </video>
+                    </div>
+                </div>
+                <div className="w-full max-w-7xl flex flex-row gap-20">
+                    <div className="flex flex-col justify-center items-center min-w-[128px]">
+                        <h2 className="text-3xl font-bold text-center">
                             nuScenes
                         </h2>
                     </div>
-                    <div className="flex-1 flex flex-col justify-center">
-                        <h2 className="text-3xl font-bold">
+                    <div>
+                        <video
+                            preload="none"
+                            autoPlay
+                            loop
+                            muted
+                            playsInline
+                            className="w-full object-fit rounded-sm bg-gradient-landing"
+                            >
+                            <source src="https://opendrivelab.github.io/ReSim/action_free/nuScenes.mp4"/>
+                        </video>
+                    </div>
+                </div>
+                <div className="w-full max-w-7xl flex flex-row gap-20">
+                    <div className="flex flex-col justify-center items-center min-w-[128px]">
+                        <h2 className="text-3xl font-bold text-center">
                             Waymo
                         </h2>
                     </div>
-                </div>
-                <div className="w-3/4 h-full flex flex-col gap-20 justify-between items-center">
-                    <video
-                        preload="none"
-                        autoPlay
-                        loop
-                        muted
-                        playsInline
-                        className="w-2/3 object-fit rounded-sm bg-gradient-landing"
-                        >
-                        <source src="https://opendrivelab.github.io/ReSim/action_free/NAVSIM.mp4"/>
-                    </video>
-                    <video
-                        preload="none"
-                        autoPlay
-                        loop
-                        muted
-                        playsInline
-                        className="w-2/3 object-fit rounded-sm bg-gradient-landing"
-                        >
-                        <source src="https://opendrivelab.github.io/ReSim/action_free/nuScenes.mp4"/>
-                    </video>
-                    <video
-                        preload="none"
-                        autoPlay
-                        loop
-                        muted
-                        playsInline
-                        className="w-2/3 object-fit rounded-sm bg-gradient-landing"
-                        >
-                        <source src="https://opendrivelab.github.io/ReSim/action_free/Waymo.mp4"/>
-                    </video>
+                    <div>
+                        <video
+                            preload="none"
+                            autoPlay
+                            loop
+                            muted
+                            playsInline
+                            className="w-full object-fit rounded-sm bg-gradient-landing"
+                            >
+                            <source src="https://opendrivelab.github.io/ReSim/action_free/Waymo.mp4"/>
+                        </video>
+                    </div>
                 </div>
             </div>
 
