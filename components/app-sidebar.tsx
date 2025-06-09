@@ -98,9 +98,6 @@ export function AppSidebar() {
                             Action-free
                         </Link>
 
-                        <Link href="#long_horizon"  className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
-                            Long Horizon
-                        </Link>
                         <Link href="#comparison"  className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
                             Comparison
                         </Link>

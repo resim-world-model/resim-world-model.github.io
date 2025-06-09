@@ -76,7 +76,7 @@ export default function Home() {
 
 
             <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-32">
-                <h1 className="text-t1 font-bold" id="introduction">
+                <h1 className="text-t1 font-bold scroll-mt-32" id="introduction">
                     Introduction
                 </h1>
             </div>
@@ -106,7 +106,7 @@ export default function Home() {
 
 
             <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-32">
-                <h1 className="text-t1 font-bold" id="action_control_nuscenes">
+                <h1 className="text-t1 font-bold scroll-mt-32" id="action_control_nuscenes">
                     Action Control
                 </h1>
                 <h1 className="text-3xl font-bold">
@@ -142,7 +142,7 @@ export default function Home() {
 
 
             <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-32">
-                <h1 className="text-t1 font-bold" id="action_control_waymo">
+                <h1 className="text-t1 font-bold scroll-mt-32" id="action_control_waymo">
                     Action Control
                 </h1>
                 <h1 className="text-3xl font-bold">
@@ -178,7 +178,7 @@ export default function Home() {
 
 
             <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-32">
-                <h1 className="text-t1 font-bold" id="action_free">
+                <h1 className="text-t1 font-bold scroll-mt-32" id="action_free">
                     Action-Free
                 </h1>
             </div>
@@ -248,7 +248,7 @@ export default function Home() {
 
 
             <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-32">
-                <h1 className="text-t1 font-bold" id="comparison">
+                <h1 className="text-t1 font-bold scroll-mt-32" id="comparison">
                     Comparison
                 </h1>
             </div>
@@ -301,7 +301,7 @@ export default function Home() {
 
 
             <div className="w-full h-32 flex flex-col justify-center items-center">
-                <h1 className="text-t1 font-bold" id="comparison">
+                <h1 className="text-t1 font-bold scroll-mt-32" id="comparison">
                     Comparison
                 </h1>
             </div>
