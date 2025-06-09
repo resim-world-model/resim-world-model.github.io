@@ -79,108 +79,27 @@ export function AppSidebar() {
                     <SidebarMenu className="mb-12 px-8 text-xs overflow-y-scroll no-scrollbar">
 
 
-
-                        <span className="font-bold p-2 select-none text-foreground/50">
-                            OpenDriveLab
-                        </span>
-
-
-
-                        <Collapsible  className="group/collapsible flex flex-col gap-6">
-                            <SidebarMenuItem>
-                                <CollapsibleTrigger className="w-full flex flex-row justify-between items-center p-2 rounded-sm hover:bg-o-blue/3 select-none">
-                                    Project
-                                    <ChevronDown className="size-4 transition-transform group-data-[state=closed]/collapsible:rotate-270 group-data-[state=open]/collapsible:rotate-0" />
-                                </CollapsibleTrigger>
-                                <CollapsibleContent>
-                                    <SidebarMenuSub>
-                                        <Link target='_blank' href="https://opendrivelab.com/blog/agibot-world" className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
-                                            AgiBot World
-                                        </Link>
-                                        <Link target='_blank' href="https://opendrivelab.com/vista" className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
-                                            OpenDV
-                                        </Link>
-                                        <Link target='_blank' href="https://opendrivelab.com/drivelm"  className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
-                                            DriveLM
-                                        </Link>
-                                        <Link target='_blank' href="https://opendrivelab.com/dataset"  className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
-                                            more
-                                        </Link>
-                                    </SidebarMenuSub>
-                                </CollapsibleContent>
-                            </SidebarMenuItem>
-                        </Collapsible>
-
-
-
-                        <Collapsible  className="group/collapsible flex flex-col gap-6">
-                            <SidebarMenuItem>
-                                <CollapsibleTrigger className="w-full flex flex-row justify-between items-center p-2 rounded-sm hover:bg-o-blue/3 select-none">
-                                    Publication
-                                    <ChevronDown className="size-4 transition-transform group-data-[state=closed]/collapsible:rotate-270 group-data-[state=open]/collapsible:rotate-0" />
-                                </CollapsibleTrigger>
-                                <CollapsibleContent>
-                                    <SidebarMenuSub>
-                                        <Link target='_blank' href="https://github.com/OpenDriveLab/UniAD" className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
-                                            UniAD
-                                        </Link>
-                                        <Link href="https://github.com/OpenDriveLab/UniVLA" target="_blank" className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
-                                            UniVLA
-                                        </Link>
-                                        <Link href="https://www.computer.org/csdl/journal/tp/2025/03/10791908/22ABgP6PlUQ" target="_blank" className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
-                                            BEVFormer
-                                        </Link>
-                                        <Link target='_blank' href="https://opendrivelab.com/publications"  className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
-                                            more
-                                        </Link>
-                                    </SidebarMenuSub>
-                                </CollapsibleContent>
-                            </SidebarMenuItem>
-                        </Collapsible>
-
-
-
-                        <Collapsible  className="group/collapsible flex flex-col gap-6">
-                            <SidebarMenuItem>
-                                <CollapsibleTrigger className="w-full flex flex-row justify-between items-center p-2 rounded-sm hover:bg-o-blue/3 select-none">
-                                    Event
-                                    <ChevronDown className="size-4 transition-transform group-data-[state=closed]/collapsible:rotate-270 group-data-[state=open]/collapsible:rotate-0" />
-                                </CollapsibleTrigger>
-                                <CollapsibleContent>
-                                    <SidebarMenuSub>
-                                        <Link target='_blank' href="https://opendrivelab.com/iccv2025/workshop/" className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
-                                            ICCV 2025 Workshop
-                                        </Link>
-                                        <Link target='_blank' href="https://opendrivelab.com/challenge2025" className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
-                                            Challenge 2025
-                                        </Link>
-                                        <Link target='_blank' href="https://opendrivelab.com/cvpr2025" className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
-                                            Events at CVPR 2025
-                                        </Link>
-                                        <Link target='_blank' href="https://opendrivelab.com/events"  className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
-                                            more
-                                        </Link>
-                                    </SidebarMenuSub>
-                                </CollapsibleContent>
-                            </SidebarMenuItem>
-                        </Collapsible>
-
-
-
-                        <Link target='_blank' href="https://opendrivelab.com/team"  className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
-                            Team
+                        <Link href="#action_control_nuscenes"  className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
+                            Action Control / nuScenes
                         </Link>
 
 
 
-                        <Link target='_blank' href="https://opendrivelab.com/recruit"  className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
-                            Recruit
+                        <Link  href="#action_control_waymo"  className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
+                            Action Control / Waymo
                         </Link>
 
 
 
-                        <Link href="https://github.com/sponsors/OpenDriveLab" target="_blank" className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
-                            Sponsor
+                        <Link href="#action_free"  className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
+                            Action-free
+                        </Link>
+
+                        <Link href="#long_horizon"  className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
+                            Long Horizon
+                        </Link>
+                        <Link href="#comparison"  className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
+                            Comparison
                         </Link>
 
 

@@ -33,23 +33,27 @@ export default function Home() {
                         />
                     </AspectRatio>
                 </div>
-                <div className="flex-1/2 flex flex-col gap-10 justify-around select-none">
+                <div className="flex-1/2 flex flex-col gap-10 justify-around">
                     <div className="flex flex-col gap-10 w-full">
-                        <h1 className="text-5xl font-bold w-full">
-                            {/* ReSim: Reliable World Simulation for Autonomous Driving */}
-                            <em>ReSim</em>: Reliable World Simulation <br/> for Autonomous Driving
-                        </h1>
+                        <div className="flex flex-col gap-3">
+                            <h1 className="text-9xl font-bold w-full">
+                                <em>ReSim</em>
+                            </h1>
+                            <h1 className="text-6xl font-bold w-full">
+                                Reliable World Simulation for Autonomous Driving
+                            </h1>
+                        </div>
                         <h2 className="text-2xl w-full">
-                            <a href="https://github.com/YTEP-ZHI" className="text-blue-600 hover:underline">Jiazhi Yang</a>,{' '}
-                            <a href="https://kashyap7x.github.io/" className="text-blue-600 hover:underline">Kashyap Chitta</a>,{' '}
-                            <a href="https://github.com/Little-Podi" className="text-blue-600 hover:underline">Shenyuan Gao</a>,{' '}
-                            <a href="https://long.ooo/" className="text-blue-600 hover:underline">Long Chen</a>,{' '}
-                            <a href="https://meteorcollector.github.io/" className="text-blue-600 hover:underline">Yuqian Shao</a>,{' '}
-                            <a href="https://jiaxiaosong1002.github.io/" className="text-blue-600 hover:underline">Xiaosong Jia</a>,{' '}
-                            <a href="https://lihongyang.info/" className="text-blue-600 hover:underline">Hongyang Li</a>,{' '}
-                            <a href="https://www.cvlibs.net/" className="text-blue-600 hover:underline">Andreas Geiger</a>,{' '}
-                            <a href="https://xyue.io/" className="text-blue-600 hover:underline">Xiangyu Yue</a>,{' '}
-                            <a href="https://scholar.google.com/citations?user=ulZxvY0AAAAJ&hl=en" className="text-blue-600 hover:underline">Li Chen</a>{' '}
+                            <a href="https://github.com/YTEP-ZHI" className="text-o-blue hover:underline">Jiazhi Yang</a>,{' '}
+                            <a href="https://kashyap7x.github.io/" className="text-o-blue hover:underline">Kashyap Chitta</a>,{' '}
+                            <a href="https://github.com/Little-Podi" className="text-o-blue hover:underline">Shenyuan Gao</a>,{' '}
+                            <a href="https://long.ooo/" className="text-o-blue hover:underline">Long Chen</a>,{' '}
+                            <a href="https://meteorcollector.github.io/" className="text-o-blue hover:underline">Yuqian Shao</a>,{' '}
+                            <a href="https://jiaxiaosong1002.github.io/" className="text-o-blue hover:underline">Xiaosong Jia</a>,{' '}
+                            <a href="https://lihongyang.info/" className="text-o-blue hover:underline">Hongyang Li</a>,{' '}
+                            <a href="https://www.cvlibs.net/" className="text-o-blue hover:underline">Andreas Geiger</a>,{' '}
+                            <a href="https://xyue.io/" className="text-o-blue hover:underline">Xiangyu Yue</a>,{' '}
+                            <a href="https://scholar.google.com/citations?user=ulZxvY0AAAAJ&hl=en" className="text-o-blue hover:underline">Li Chen</a>{' '}
                         </h2>
                         <span></span>
                     </div>
@@ -60,7 +64,7 @@ export default function Home() {
 
             <div className="w-full h-screen flex flex-col p-20 snap-start gap-10">
                 <div className="w-full h-32 flex flex-row justify-center items-center">
-                    <h1 className="text-t1 font-bold">
+                    <h1 className="text-t1 font-bold" id="action_control_nuscenes">
                         Action Control
                     </h1>
                 </div>
@@ -99,7 +103,7 @@ export default function Home() {
 
             <div className="w-full h-screen flex flex-col p-20 snap-start gap-10">
                 <div className="w-full h-32 flex flex-col justify-center items-center">
-                    <h1 className="text-t1 font-bold">
+                    <h1 className="text-t1 font-bold" id="action_control_waymo">
                         Action Control
                     </h1>
                 </div>
@@ -138,7 +142,7 @@ export default function Home() {
 
             <div className="w-full h-screen flex flex-col p-20 snap-start gap-10">
                 <div className="w-full h-32 flex flex-col justify-center items-center">
-                    <h1 className="text-t1 font-bold">
+                    <h1 className="text-t1 font-bold" id="action_free">
                         Action-Free
                     </h1>
                 </div>
@@ -199,7 +203,7 @@ export default function Home() {
 
             <div className="w-full h-screen flex flex-col p-20 snap-start gap-10">
                 <div className="w-full h-32 flex flex-col justify-center items-center">
-                    <h1 className="text-t1 font-bold">
+                    <h1 className="text-t1 font-bold"  id="long_horizon">
                         Long Horizon
                     </h1>
                 </div>
@@ -233,7 +237,7 @@ export default function Home() {
 
             <div className="w-full h-screen flex flex-col p-20 snap-start gap-10">
                 <div className="w-full h-32 flex flex-col justify-center items-center">
-                    <h1 className="text-t1 font-bold">
+                    <h1 className="text-t1 font-bold" id="comparison">
                         Comparison
                     </h1>
                 </div>
