@@ -56,15 +56,16 @@ export default function Home() {
                             <a href="https://xyue.io/" className="text-o-blue hover:underline">Xiangyu Yue</a><sup className="align-super text-sm">1</sup>,{' '}
                             <a href="https://scholar.google.com/citations?user=ulZxvY0AAAAJ&hl=en" className="text-o-blue hover:underline">Li Chen</a><sup className="align-super text-sm">2</sup>{' '}
                         </h2>
-                        <h2 className="text-lg w-full -mt-10">
-                            <sup className="align-super text-sm">1</sup>The Chinese University of Hong Kong {' '}
-                            <sup className="align-super text-sm">2</sup>The University of Hong Kong {' '}
-                            <sup className="align-super text-sm">3</sup>Xiaomi EV {' '}
-                            <sup className="align-super text-sm">4</sup>NVIDIA Research {' '}
-                            <sup className="align-super text-sm">5</sup>Shanghai Jiao Tong University {' '}
-                            <sup className="align-super text-sm">6</sup>OpenDriveLab at Shanghai AfI Lab  {' '}
-                            <sup className="align-super text-sm">7</sup>University of Tübingen  {' '}
-                            <sup className="align-super text-sm">8</sup>Tübingen AI Center  {' '}
+                        <h2 className="text-lg w-full -mt-8">
+                            <sup className="align-super text-sm">1</sup>The Chinese University of Hong Kong {'  '}
+                            <sup className="align-super text-sm">2</sup>The University of Hong Kong {'  '}
+                            <sup className="align-super text-sm">3</sup>Xiaomi EV {'  '}
+                            <sup className="align-super text-sm">4</sup>NVIDIA Research {'  '}
+                            <br/>
+                            <sup className="align-super text-sm">5</sup>Shanghai Jiao Tong University {'  '}
+                            <sup className="align-super text-sm">6</sup>OpenDriveLab at Shanghai AI Lab  {'  '}
+                            <sup className="align-super text-sm">7</sup>University of Tübingen  {'  '}
+                            <sup className="align-super text-sm">8</sup>Tübingen AI Center  {'  '}
                         </h2>
                         <p className="text-2xl w-full">
                             arXiv | Code in July
