@@ -33,27 +33,27 @@ export default function Home() {
                         />
                     </AspectRatio>
                 </div>
-                <div className="flex-1/2 flex flex-col gap-10 justify-around">
+                <div className="flex-1/2 flex flex-col gap-3 justify-around">
                     <div className="flex flex-col gap-10 w-full">
                         <div className="flex flex-col gap-3">
-                            <h1 className="text-9xl font-bold w-full">
-                                <em>ReSim</em>
+                            <h1 className="text-9xl font-bold w-full color-text-1">
+                                ReSim
                             </h1>
-                            <h1 className="text-6xl font-bold w-full">
+                            <h1 className="text-6xl font-bold w-full  color-text-1 pb-3">
                                 Reliable World Simulation for Autonomous Driving
                             </h1>
                         </div>
                         <h2 className="text-2xl w-full">
-                            <a href="https://github.com/YTEP-ZHI" className="text-o-blue hover:underline">Jiazhi Yang</a>,{' '}
-                            <a href="https://kashyap7x.github.io/" className="text-o-blue hover:underline">Kashyap Chitta</a>,{' '}
-                            <a href="https://github.com/Little-Podi" className="text-o-blue hover:underline">Shenyuan Gao</a>,{' '}
-                            <a href="https://long.ooo/" className="text-o-blue hover:underline">Long Chen</a>,{' '}
-                            <a href="https://meteorcollector.github.io/" className="text-o-blue hover:underline">Yuqian Shao</a>,{' '}
-                            <a href="https://jiaxiaosong1002.github.io/" className="text-o-blue hover:underline">Xiaosong Jia</a>,{' '}
-                            <a href="https://lihongyang.info/" className="text-o-blue hover:underline">Hongyang Li</a>,{' '}
-                            <a href="https://www.cvlibs.net/" className="text-o-blue hover:underline">Andreas Geiger</a>,{' '}
-                            <a href="https://xyue.io/" className="text-o-blue hover:underline">Xiangyu Yue</a>,{' '}
-                            <a href="https://scholar.google.com/citations?user=ulZxvY0AAAAJ&hl=en" className="text-o-blue hover:underline">Li Chen</a>{' '}
+                            <a href="https://github.com/YTEP-ZHI" className="hover:underline">Jiazhi Yang</a>,{' '}
+                            <a href="https://kashyap7x.github.io/" className="hover:underline">Kashyap Chitta</a>,{' '}
+                            <a href="https://github.com/Little-Podi" className="hover:underline">Shenyuan Gao</a>,{' '}
+                            <a href="https://long.ooo/" className="hover:underline">Long Chen</a>,{' '}
+                            <a href="https://meteorcollector.github.io/" className="hover:underline">Yuqian Shao</a>,{' '}
+                            <a href="https://jiaxiaosong1002.github.io/" className="hover:underline">Xiaosong Jia</a>,{' '}
+                            <a href="https://lihongyang.info/" className="hover:underline">Hongyang Li</a>,{' '}
+                            <a href="https://www.cvlibs.net/" className="hover:underline">Andreas Geiger</a>,{' '}
+                            <a href="https://xyue.io/" className=" hover:underline">Xiangyu Yue</a>,{' '}
+                            <a href="https://scholar.google.com/citations?user=ulZxvY0AAAAJ&hl=en" className="hover:underline">Li Chen</a>{' '}
                         </h2>
                         <span></span>
                     </div>

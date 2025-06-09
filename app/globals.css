@@ -187,3 +187,11 @@
 .no-scrollbar::-webkit-scrollbar {
     display: none;
 }
+
+
+.color-text-1 {
+  width: fit-content;
+  background-image: linear-gradient(to right, #0c318f, #53c2f0, #00a0e8);
+  -webkit-background-clip: text;
+  color: transparent;
+}
