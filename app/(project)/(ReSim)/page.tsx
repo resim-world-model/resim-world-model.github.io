@@ -18,11 +18,11 @@ import { AspectRatio } from "@/components/ui/aspect-ratio"
 
 export default function Home() {
     return (
-        <main className="w-full h-screen overflow-x-hidden overflow-y-scroll snap-y snap-mandatory">
+        <main className="w-full h-screen overflow-x-hidden">
 
 
 
-            <div className="w-full h-screen flex flex-col xl:flex-row gap-10 xl:gap-20 justify-center items-center p-20 pt-64 xl:pt-20 snap-start">
+            <div className="w-full h-screen flex flex-col xl:flex-row gap-10 xl:gap-20 justify-center items-center p-20 pt-64 xl:pt-20  ">
                 <div className="flex-1/2 h-1/3 w-full xl:h-full flex flex-col justify-center select-none">
                     <AspectRatio ratio={16/9}>
                         <Image
@@ -96,7 +96,7 @@ export default function Home() {
 
 
 
-            <div className="w-full h-screen flex flex-col p-20 snap-start gap-10">
+            <div className="w-full flex flex-col p-20   gap-10">
                 <div className="w-full h-32 flex flex-row justify-center items-center">
                     <h1 className="text-t1 font-bold" id="action_control_nuscenes">
                         Action Control
@@ -135,7 +135,7 @@ export default function Home() {
 
 
 
-            <div className="w-full h-screen flex flex-col p-20 snap-start gap-10">
+            <div className="w-full  flex flex-col p-20   gap-10">
                 <div className="w-full h-32 flex flex-col justify-center items-center">
                     <h1 className="text-t1 font-bold" id="action_control_waymo">
                         Action Control
@@ -174,7 +174,7 @@ export default function Home() {
 
 
 
-            <div className="w-full h-screen flex flex-col p-20 snap-start gap-10">
+            <div className="w-full flex flex-col p-20   gap-10">
                 <div className="w-full h-32 flex flex-col justify-center items-center">
                     <h1 className="text-t1 font-bold" id="action_free">
                         Action-Free
@@ -235,7 +235,7 @@ export default function Home() {
 
 
 
-            <div className="w-full h-screen flex flex-col p-20 snap-start gap-10">
+            <div className="w-full flex flex-col p-20   gap-10">
                 <div className="w-full h-32 flex flex-col justify-center items-center">
                     <h1 className="text-t1 font-bold" id="comparison">
                         Comparison
@@ -249,7 +249,7 @@ export default function Home() {
                             loop
                             muted
                             playsInline
-                            className="w-full xl:w-2/3 object-fit rounded-sm bg-gradient-landing"
+                            className="w-full xl:w-2/3 3xl:w-1/2 object-fit rounded-sm bg-gradient-landing"
                             >
                             <source src="https://opendrivelab.github.io/ReSim/method_comparisons/comparison1.mp4"/>
                         </video>
@@ -259,7 +259,7 @@ export default function Home() {
                             loop
                             muted
                             playsInline
-                            className="w-full xl:w-2/3 rounded-sm bg-gradient-landing"
+                            className="w-full xl:w-2/3 3xl:w-1/2 rounded-sm bg-gradient-landing"
                             >
                             <source src="https://opendrivelab.github.io/ReSim/method_comparisons/comparison2.mp4"/>
                         </video>
@@ -269,7 +269,7 @@ export default function Home() {
                             loop
                             muted
                             playsInline
-                            className="w-full xl:w-2/3 rounded-sm bg-gradient-landing"
+                            className="w-full xl:w-2/3 3xl:w-1/2 rounded-sm bg-gradient-landing"
                             >
                             <source src="https://opendrivelab.github.io/ReSim/method_comparisons/comparison3.mp4"/>
                         </video>
@@ -279,7 +279,7 @@ export default function Home() {
                             loop
                             muted
                             playsInline
-                            className="w-full xl:w-2/3 rounded-sm bg-gradient-landing"
+                            className="w-full xl:w-2/3 3xl:w-1/2 rounded-sm bg-gradient-landing"
                             >
                             <source src="https://opendrivelab.github.io/ReSim/method_comparisons/comparison4.mp4"/>
                         </video>
@@ -289,7 +289,7 @@ export default function Home() {
 
 
 
-            <div className="w-full h-screen flex flex-col p-20 snap-start gap-10">
+            <div className="w-full  flex flex-col p-20   gap-10">
                 <div className="w-full h-32 flex flex-col justify-center items-center">
                     <h1 className="text-t1 font-bold" id="comparison">
                         Comparison
@@ -300,7 +300,7 @@ export default function Home() {
 
 
 
-            <footer className="w-full mb-24 flex flex-col gab-10 snap-start">
+            <footer className="w-full mb-24 flex flex-col gab-10  ">
                 <div className="w-full pl-6 pr-6 flex flex-row justify-center mt-24">
                     <div className="max-w-4xl w-full flex flex-row justify-between">
                         <div className="flex-1 flex flex-col justify-start">
