@@ -185,11 +185,14 @@ export default function Home() {
 
 
 
-            <div className="w-full h-32 flex flex-col justify-center items-center">
+            <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-32">
                 <h1 className="text-t1 font-bold" id="action_free">
                     Action-Free
                 </h1>
             </div>
+
+
+
             <div className="w-full h-full flex flex-row justify-center items-center">
                 <div className="w-1/4 h-full flex flex-col gap-20 justify-between items-center">
                     <div className="flex-1 flex flex-col justify-center">
@@ -258,7 +261,7 @@ export default function Home() {
                     loop
                     muted
                     playsInline
-                    className="w-full xl:w-2/3 3xl:w-1/2 object-fit rounded-sm bg-gradient-landing"
+                    className="w-full max-w-[1280px] rounded-sm bg-gradient-landing"
                     >
                     <source src="https://opendrivelab.github.io/ReSim/method_comparisons/comparison1.mp4"/>
                 </video>
@@ -268,7 +271,7 @@ export default function Home() {
                     loop
                     muted
                     playsInline
-                    className="w-full xl:w-2/3 3xl:w-1/2 rounded-sm bg-gradient-landing"
+                    className="w-full max-w-[1280px] rounded-sm bg-gradient-landing"
                     >
                     <source src="https://opendrivelab.github.io/ReSim/method_comparisons/comparison2.mp4"/>
                 </video>
@@ -278,7 +281,7 @@ export default function Home() {
                     loop
                     muted
                     playsInline
-                    className="w-full xl:w-2/3 3xl:w-1/2 rounded-sm bg-gradient-landing"
+                    className="w-full max-w-[1280px] rounded-sm bg-gradient-landing"
                     >
                     <source src="https://opendrivelab.github.io/ReSim/method_comparisons/comparison3.mp4"/>
                 </video>
@@ -288,7 +291,7 @@ export default function Home() {
                     loop
                     muted
                     playsInline
-                    className="w-full xl:w-2/3 3xl:w-1/2 rounded-sm bg-gradient-landing"
+                    className="w-full max-w-[1280px] rounded-sm bg-gradient-landing"
                     >
                     <source src="https://opendrivelab.github.io/ReSim/method_comparisons/comparison4.mp4"/>
                 </video>
