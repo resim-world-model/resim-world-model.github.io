@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 import Image from 'next/image'
 import Link from "next/link"
-
+import DouDoubleTabSelector from "@/components/ui/doubletab"
 
 
 import { AspectRatio } from "@/components/ui/aspect-ratio"
@@ -274,6 +274,17 @@ export default function Home() {
                         </video>
                     </div>
                 </div>
+            </div>
+
+
+
+            <div className="w-full h-screen flex flex-col p-20 snap-start gap-10">
+                <div className="w-full h-32 flex flex-col justify-center items-center">
+                    <h1 className="text-t1 font-bold" id="comparison">
+                        Comparison
+                    </h1>
+                </div>
+                <DouDoubleTabSelector/>
             </div>
 
 
