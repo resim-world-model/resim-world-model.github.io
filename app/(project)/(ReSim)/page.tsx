@@ -69,7 +69,22 @@ export default function Home() {
                         <p className="text-2xl w-full">
                             arXiv | Code in July
                         </p>
-                        <p className="text-1xl w-full">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+
+
+            
+
+            <div className="w-full h-screen flex flex-col p-20 snap-start gap-10">
+                <div className="w-full h-32 flex flex-row justify-center items-center">
+                    <h1 className="text-t1 font-bold" id="abstract">
+                        Abstract
+                    </h1>
+                </div>
+                <div className="w-full flex justify-center">
+                <p className="text-lg w-2/5 leading-relaxed">
                             How can we reliably simulate future driving scenarios under a wide range of
                             ego driving behaviors? Recent driving world models, developed exclusively on
                             real-world driving data composed mainly of safe expert trajectories, struggle to
@@ -88,54 +103,13 @@ export default function Home() {
                             ReSim paradigm achieves up to 44% higher visual fidelity, improves controllability
                             for both expert and non-expert actions by over 50%, and boosts planning and policy
                             selection performance on NAVSIM by 2% and 25%, respectively.
-                        </p>
-                        <span></span>
-                    </div>
+                </p>
                 </div>
             </div>
 
 
 
-            <div className="w-full flex flex-col p-20   gap-10">
-                <div className="w-full h-32 flex flex-row justify-center items-center">
-                    <h1 className="text-t1 font-bold" id="action_control_nuscenes">
-                        Action Control
-                    </h1>
-                </div>
-                <div className="w-full h-full flex flex-row justify-center items-center">
-                    <div className="w-1/4 h-full flex flex-col gap-20 justify-evenly items-center">
-                        <h2 className="text-3xl font-bold">
-                            nuScenes (Zero-shot)
-                        </h2>
-                    </div>
-                    <div className="w-3/4 h-full flex flex-col gap-20 justify-evenly items-center">
-                        <video
-                            preload="none"
-                            autoPlay
-                            loop
-                            muted
-                            playsInline
-                            className="w-3/4 object-fit rounded-sm bg-gradient-landing"
-                            >
-                            <source src="https://opendrivelab.github.io/ReSim/action_control/nuScenes1.mp4"/>
-                        </video>
-                        <video
-                            preload="none"
-                            autoPlay
-                            loop
-                            muted
-                            playsInline
-                            className="w-3/4 object-fit rounded-sm bg-gradient-landing"
-                            >
-                            <source src="https://opendrivelab.github.io/ReSim/action_control/nuScenes2.mp4"/>
-                        </video>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div className="w-full  flex flex-col p-20   gap-10">
+            <div className="w-full h-screen flex flex-col p-20 snap-start gap-10">
                 <div className="w-full h-32 flex flex-col justify-center items-center">
                     <h1 className="text-t1 font-bold" id="action_control_waymo">
                         Action Control
