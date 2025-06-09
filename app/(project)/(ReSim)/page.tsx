@@ -36,10 +36,10 @@ export default function Home() {
                 <div className="flex-1/2 flex flex-col gap-3 justify-around">
                     <div className="flex flex-col gap-10 w-full">
                         <div className="flex flex-col gap-3">
-                            <h1 className="text-7xl 2xl:text-9xl font-bold w-full color-text-1">
+                            <h1 className="text-7xl 2xl:text-5xl font-bold w-full color-text-1">
                                 ReSim
                             </h1>
-                            <h1 className="text-4xl 2xl:text-6xl font-bold w-full  color-text-1 pb-3">
+                            <h1 className="text-4xl 2xl:text-4xl font-bold w-full  color-text-1 pb-3">
                                 Reliable World Simulation for Autonomous Driving
                             </h1>
                         </div>
@@ -76,12 +76,12 @@ export default function Home() {
 
 
             <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-32">
-                <h1 className="text-t1 font-bold scroll-mt-32" id="introduction">
+                <h1 className="text-4xl font-bold scroll-mt-32" id="introduction">
                     Introduction
                 </h1>
             </div>
             <div className="flex flex-row justify-center px-6 ">
-                <p className="max-w-4xl text-xl text-justify leading-relaxed">
+                <p className="max-w-4xl text-bl text-justify leading-relaxed">
                     How can we reliably simulate future driving scenarios under a wide range of
                     ego driving behaviors? Recent driving world models, developed exclusively on
                     real-world driving data composed mainly of safe expert trajectories, struggle to
@@ -106,10 +106,10 @@ export default function Home() {
 
 
             <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-32">
-                <h1 className="text-t1 font-bold scroll-mt-32" id="action_control_nuscenes">
+                <h1 className="text-4xl font-bold scroll-mt-32" id="action_control_nuscenes">
                     Action Control
                 </h1>
-                <h1 className="text-3xl font-bold">
+                <h1 className="text-2xl">
                     nuScenes (Zero-shot)
                 </h1>
             </div>
@@ -142,10 +142,10 @@ export default function Home() {
 
 
             <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-32">
-                <h1 className="text-t1 font-bold scroll-mt-32" id="action_control_waymo">
+                <h1 className="text-4xl font-bold scroll-mt-32" id="action_control_waymo">
                     Action Control
                 </h1>
-                <h1 className="text-3xl font-bold">
+                <h1 className="text-2xl">
                     Waymo (Zero-shot)
                 </h1>
             </div>
@@ -178,7 +178,7 @@ export default function Home() {
 
 
             <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-32">
-                <h1 className="text-t1 font-bold scroll-mt-32" id="action_free">
+                <h1 className="text-4xl font-bold scroll-mt-32" id="action_free">
                     Action-Free
                 </h1>
             </div>
@@ -188,7 +188,7 @@ export default function Home() {
             <div className="w-full px-6 flex flex-col justify-center gap-20 items-center">
                 <div className="w-full max-w-7xl flex flex-row gap-20">
                     <div className="flex flex-col justify-center items-center min-w-[128px]">
-                        <h2 className="text-3xl font-bold text-center">
+                        <h2 className="text-2xl text-center">
                             NAVSIM
                         </h2>
                     </div>
@@ -207,7 +207,7 @@ export default function Home() {
                 </div>
                 <div className="w-full max-w-7xl flex flex-row gap-20">
                     <div className="flex flex-col justify-center items-center min-w-[128px]">
-                        <h2 className="text-3xl font-bold text-center">
+                        <h2 className="text-2xl text-center">
                             nuScenes
                         </h2>
                     </div>
@@ -226,7 +226,7 @@ export default function Home() {
                 </div>
                 <div className="w-full max-w-7xl flex flex-row gap-20">
                     <div className="flex flex-col justify-center items-center min-w-[128px]">
-                        <h2 className="text-3xl font-bold text-center">
+                        <h2 className="text-2xl text-center">
                             Waymo
                         </h2>
                     </div>
@@ -248,7 +248,7 @@ export default function Home() {
 
 
             <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-32">
-                <h1 className="text-t1 font-bold scroll-mt-32" id="comparison">
+                <h1 className="text-4xl font-bold scroll-mt-32" id="comparison">
                     Comparison
                 </h1>
             </div>
@@ -301,7 +301,7 @@ export default function Home() {
 
 
             <div className="w-full h-32 flex flex-col justify-center items-center">
-                <h1 className="text-t1 font-bold scroll-mt-32" id="comparison">
+                <h1 className="text-4xl font-bold scroll-mt-32" id="comparison">
                     Comparison
                 </h1>
             </div>
