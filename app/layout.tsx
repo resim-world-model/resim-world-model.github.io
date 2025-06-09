@@ -50,11 +50,11 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en" className={inter.className}>
+        <html lang="en" className={inter.className}  id="#">
 
 
 
-            <body id="#">       
+            <body>       
                 <SidebarProvider>
 
 
@@ -70,7 +70,7 @@ export default function RootLayout({
                         <div className="fixed flex flex-row gap-3 p-6 z-20 flex-wrap justify-between md:justify-start">
 
                             <Button asChild className="bg-background text-foreground hover:bg-white group">
-                                <Link href="/" className="select-none">
+                                <Link href="https://opendrivelab.com/" target="_blank" className="select-none">
                                     <Image
                                         src="/logo/OpenDriveLab/D.png"
                                         alt="OpenDriveLab"
