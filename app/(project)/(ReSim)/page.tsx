@@ -35,13 +35,23 @@ export default function Home() {
                 </div>
                 <div className="flex-1/2 flex flex-col gap-10 justify-around select-none">
                     <div className="flex flex-col gap-10 w-full">
-                        <h1 className="text-t1 font-bold w-full">
-                            Resim xxx
+                        <h1 className="text-5xl font-bold w-full">
+                            {/* ReSim: Reliable World Simulation for Autonomous Driving */}
+                            <em>ReSim</em>: Reliable World Simulation <br/> for Autonomous Driving
                         </h1>
-                        <h2 className="w-full">
-                            Jiazhi Yang
+                        <h2 className="text-2xl w-full">
+                            <a href="https://github.com/YTEP-ZHI" className="text-blue-600 hover:underline">Jiazhi Yang</a>,{' '}
+                            <a href="https://kashyap7x.github.io/" className="text-blue-600 hover:underline">Kashyap Chitta</a>,{' '}
+                            <a href="https://github.com/Little-Podi" className="text-blue-600 hover:underline">Shenyuan Gao</a>,{' '}
+                            <a href="https://long.ooo/" className="text-blue-600 hover:underline">Long Chen</a>,{' '}
+                            <a href="https://meteorcollector.github.io/" className="text-blue-600 hover:underline">Yuqian Shao</a>,{' '}
+                            <a href="https://jiaxiaosong1002.github.io/" className="text-blue-600 hover:underline">Xiaosong Jia</a>,{' '}
+                            <a href="https://lihongyang.info/" className="text-blue-600 hover:underline">Hongyang Li</a>,{' '}
+                            <a href="https://www.cvlibs.net/" className="text-blue-600 hover:underline">Andreas Geiger</a>,{' '}
+                            <a href="https://xyue.io/" className="text-blue-600 hover:underline">Xiangyu Yue</a>,{' '}
+                            <a href="https://scholar.google.com/citations?user=ulZxvY0AAAAJ&hl=en" className="text-blue-600 hover:underline">Li Chen</a>{' '}
                         </h2>
-                        <span>你先写内容，然后我再拍版</span>
+                        <span></span>
                     </div>
                 </div>
             </div>
