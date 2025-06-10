@@ -247,7 +247,7 @@ export default function Home() {
 
             <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-32">
                 <h1 className="text-4xl font-bold scroll-mt-32" id="comparison">
-                    Comparison
+                    Comparison of Action Controllability
                 </h1>
             </div>
 
