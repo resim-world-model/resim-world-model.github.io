@@ -54,7 +54,7 @@ export default function Home() {
                             <a href="https://lihongyang.info/" className="text-o-blue hover:underline">Hongyang Li</a><sup className="align-super text-sm">2</sup>,{' '}
                             <a href="https://www.cvlibs.net/" className="text-o-blue hover:underline">Andreas Geiger</a><sup className="align-super text-sm">7,8</sup>,{' '}
                             <a href="https://xyue.io/" className="text-o-blue hover:underline">Xiangyu Yue</a><sup className="align-super text-sm">1</sup>,{' '}
-                            <a href="https://scholar.google.com/citations?user=ulZxvY0AAAAJ&hl=en" className="text-o-blue hover:underline">Li Chen</a><sup className="align-super text-sm">2</sup>{' '}
+                            <a href="https://scholar.google.com/citations?user=ulZxvY0AAAAJ&hl=en" className="text-o-blue hover:underline">Li Chen</a><sup className="align-super text-sm">2,6</sup>{' '}
                         </h2>
                         <h2 className="text-lg w-full -mt-8">
                             <sup className="align-super text-sm">1</sup>The Chinese University of Hong Kong {'  '}
