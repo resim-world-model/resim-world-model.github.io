@@ -105,7 +105,7 @@ export default function Home() {
 
             <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-32">
                 <h1 className="text-4xl font-bold scroll-mt-32" id="action_control_nuscenes">
-                    Action Control
+                    Action-Controlled Future Prediction
                 </h1>
                 <h1 className="text-2xl">
                     nuScenes (Zero-shot)
@@ -141,7 +141,7 @@ export default function Home() {
 
             <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-32">
                 <h1 className="text-4xl font-bold scroll-mt-32" id="action_control_waymo">
-                    Action Control
+                    Action-Controlled Future Prediction
                 </h1>
                 <h1 className="text-2xl">
                     Waymo (Zero-shot)
@@ -177,7 +177,7 @@ export default function Home() {
 
             <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-32">
                 <h1 className="text-4xl font-bold scroll-mt-32" id="action_free">
-                    Action-Free
+                    Action-free Future Prediction
                 </h1>
             </div>
             
