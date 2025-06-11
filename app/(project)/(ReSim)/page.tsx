@@ -65,17 +65,44 @@ export default function Home() {
                             <sup className="align-super text-sm">7</sup>University of Tübingen  {'  '}
                             <sup className="align-super text-sm">8</sup>Tübingen AI Center  {'  '}
                         </h2>
-                        <p className="text-2xl w-full">
-                            arXiv | Code in July
-                        </p>
+                        <div className="flex flex-wrap -mt-8">
+                          <a
+                            href="https://arxiv.org/…"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="flex items-center gap-2 bg-gray-800 text-white rounded-full px-4 py-2 text-sm hover:bg-gray-700 transition"
+                          >
+                            <Image
+                              src="https://opendrivelab.github.io/ReSim/figs/arxiv2.png"
+                              alt=""
+                              width={20}
+                              height={10}
+                            />
+                            arXiv
+                          </a>
+                          <a
+                            href=""
+                            target="_blank"
+                            rel="noreferrer"
+                            className="flex items-center gap-2 bg-gray-800 text-white rounded-full px-4 py-2 text-sm hover:bg-gray-700 transition"
+                          >
+                            <Image
+                              src="https://opendrivelab.github.io/ReSim/figs/arxiv2.png"
+                              alt=""
+                              width={30}
+                              height={10}
+                            />
+                            Code in July
+                          </a>
+                        </div>
                     </div>
                 </div>
             </div>
 
 
-            <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-32">
+            <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-22">
                 <h1 className="text-4xl font-bold scroll-mt-32" id="introduction">
-                    Introduction
+                    Abstract
                 </h1>
             </div>
             <div className="flex flex-row justify-center px-6 ">
@@ -103,7 +130,7 @@ export default function Home() {
 
 
 
-            <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-32">
+            <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-22">
                 <h1 className="text-4xl font-bold scroll-mt-32" id="action_control_nuscenes">
                     Action-Controlled Future Prediction
                 </h1>
@@ -139,7 +166,7 @@ export default function Home() {
 
 
 
-            <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-32">
+            <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-22">
                 <h1 className="text-4xl font-bold scroll-mt-32" id="action_control_waymo">
                     Action-Controlled Future Prediction
                 </h1>
@@ -175,7 +202,67 @@ export default function Home() {
 
 
 
-            <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-32">
+            <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-22">
+                <h1 className="text-4xl font-bold scroll-mt-32" id="comparison">
+                    Comparison of Action Controllability
+                </h1>
+            </div>
+
+
+
+            <div className="w-full px-6 flex flex-col justify-center gap-20 items-center">
+                <video
+                    preload="none"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="w-full max-w-7xl rounded-sm bg-gradient-landing"
+                    >
+                    <source src="https://opendrivelab.github.io/ReSim/method_comparisons/comparison1.mp4"/>
+                </video>
+                <video
+                    preload="none"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="w-full max-w-7xl rounded-sm bg-gradient-landing"
+                    >
+                    <source src="https://opendrivelab.github.io/ReSim/method_comparisons/comparison2.mp4"/>
+                </video>
+                <video
+                    preload="none"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="w-full max-w-7xl rounded-sm bg-gradient-landing"
+                    >
+                    <source src="https://opendrivelab.github.io/ReSim/method_comparisons/comparison3.mp4"/>
+                </video>
+                <video
+                    preload="none"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="w-full max-w-7xl rounded-sm bg-gradient-landing"
+                    >
+                    <source src="https://opendrivelab.github.io/ReSim/method_comparisons/comparison4.mp4"/>
+                </video>
+            </div>
+
+
+
+            {/* <div className="w-full h-32 flex flex-col justify-center items-center">
+                <h1 className="text-4xl font-bold scroll-mt-32" id="comparison">
+                    Comparison
+                </h1>
+            </div>
+            <DouDoubleTabSelector/> */}
+            
+            <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-22">
                 <h1 className="text-4xl font-bold scroll-mt-32" id="action_free">
                     Action-free Future Prediction
                 </h1>
@@ -242,68 +329,6 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-
-
-
-            <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-32">
-                <h1 className="text-4xl font-bold scroll-mt-32" id="comparison">
-                    Comparison of Action Controllability
-                </h1>
-            </div>
-
-
-
-            <div className="w-full px-6 flex flex-col justify-center gap-20 items-center">
-                <video
-                    preload="none"
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    className="w-full max-w-7xl rounded-sm bg-gradient-landing"
-                    >
-                    <source src="https://opendrivelab.github.io/ReSim/method_comparisons/comparison1.mp4"/>
-                </video>
-                <video
-                    preload="none"
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    className="w-full max-w-7xl rounded-sm bg-gradient-landing"
-                    >
-                    <source src="https://opendrivelab.github.io/ReSim/method_comparisons/comparison2.mp4"/>
-                </video>
-                <video
-                    preload="none"
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    className="w-full max-w-7xl rounded-sm bg-gradient-landing"
-                    >
-                    <source src="https://opendrivelab.github.io/ReSim/method_comparisons/comparison3.mp4"/>
-                </video>
-                <video
-                    preload="none"
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    className="w-full max-w-7xl rounded-sm bg-gradient-landing"
-                    >
-                    <source src="https://opendrivelab.github.io/ReSim/method_comparisons/comparison4.mp4"/>
-                </video>
-            </div>
-
-
-
-            <div className="w-full h-32 flex flex-col justify-center items-center">
-                <h1 className="text-4xl font-bold scroll-mt-32" id="comparison">
-                    Comparison
-                </h1>
-            </div>
-            <DouDoubleTabSelector/>
 
 
 
