@@ -83,23 +83,22 @@ export function AppSidebar() {
                         </Link>
 
                         <Link href="#action_control_nuscenes"  className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
-                            Action Control / nuScenes
+                            Action-Controlled / nuScenes
                         </Link>
 
 
 
                         <Link  href="#action_control_waymo"  className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
-                            Action Control / Waymo
+                            Action-Controlled / Waymo
                         </Link>
 
+                        <Link href="#comparison"  className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
+                            Comparison of Action Controllability
+                        </Link>
 
 
                         <Link href="#action_free"  className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
                             Action-free
-                        </Link>
-
-                        <Link href="#comparison"  className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
-                            Comparison
                         </Link>
 
 
