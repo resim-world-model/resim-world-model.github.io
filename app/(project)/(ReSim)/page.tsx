@@ -35,39 +35,40 @@ export default function Home() {
                     </AspectRatio>
                 </div>
                 <div className="flex-1/2 flex flex-col gap-3 justify-around">
-                    <div className="flex flex-col gap-10 w-full">
+                    <div className="flex flex-col gap-8 w-full">
                         <div className="flex flex-col gap-3">
-                            <h1 className="text-7xl 2xl:text-5xl font-bold w-full color-text-1">
+                            <h1 className="text-7xl 3xl:text-8xl font-bold w-full color-text-1">
                                 ReSim
                             </h1>
-                            <h1 className="text-4xl 2xl:text-4xl font-bold w-full  color-text-1 pb-3">
+                            <h1 className="text-4xl 3xl:text-5xl font-bold w-full  color-text-1">
                                 Reliable World Simulation for Autonomous Driving
                             </h1>
                         </div>
                         <div className="flex flex-col gap-2">
                             <h2 className="w-full leading-loose">
-                                <a href="https://github.com/YTEP-ZHI" className="text-o-blue hover:underline">Jiazhi Yang</a><sup className="align-super text-sm">1,3</sup>,{' '}
-                                <a href="https://kashyap7x.github.io/" className="text-o-blue hover:underline">Kashyap Chitta</a><sup className="align-super text-sm">4,7</sup>,{' '}
-                                <a href="https://github.com/Little-Podi" className="text-o-blue hover:underline">Shenyuan Gao</a><sup className="align-super text-sm">8</sup>,{' '}
-                                <a href="https://long.ooo/" className="text-o-blue hover:underline">Long Chen</a><sup className="align-super text-sm">5</sup>,{' '}
-                                <a href="https://meteorcollector.github.io/" className="text-o-blue hover:underline">Yuqian Shao</a><sup className="align-super text-sm">6</sup>,{' '}
-                                <a href="https://jiaxiaosong1002.github.io/" className="text-o-blue hover:underline">Xiaosong Jia</a><sup className="align-super text-sm">6</sup>,{' '}
-                                <a href="https://lihongyang.info/" className="text-o-blue hover:underline">Hongyang Li</a><sup className="align-super text-sm">2</sup>,{' '}
-                                <a href="https://www.cvlibs.net/" className="text-o-blue hover:underline">Andreas Geiger</a><sup className="align-super text-sm">7</sup>,{' '}
-                                <a href="https://xyue.io/" className="text-o-blue hover:underline">Xiangyu Yue</a><sup className="align-super text-sm">1</sup>,{' '}
-                                <a href="https://scholar.google.com/citations?user=ulZxvY0AAAAJ&hl=en" className="text-o-blue hover:underline">Li Chen</a><sup className="align-super text-sm">2,3</sup>{' '}
+                                <a href="https://github.com/YTEP-ZHI" className="text-o-blue hover:underline text-nowrap">Jiazhi Yang</a><sup className="align-super text-sm">1,3</sup>,{' '}
+                                <a href="https://kashyap7x.github.io/" className="text-o-blue hover:underline text-nowrap">Kashyap Chitta</a><sup className="align-super text-sm">4,7</sup>,{' '}
+                                <a href="https://github.com/Little-Podi" className="text-o-blue hover:underline text-nowrap">Shenyuan Gao</a><sup className="align-super text-sm">8</sup>,{' '}
+                                <a href="https://long.ooo/" className="text-o-blue hover:underline text-nowrap">Long Chen</a><sup className="align-super text-sm">5</sup>,{' '}
+                                <a href="https://meteorcollector.github.io/" className="text-o-blue hover:underline text-nowrap">Yuqian Shao</a><sup className="align-super text-sm">6</sup>,{' '}
+                                <a href="https://jiaxiaosong1002.github.io/" className="text-o-blue hover:underline text-nowrap">Xiaosong Jia</a><sup className="align-super text-sm">6</sup>,{' '}
+                                <a href="https://lihongyang.info/" className="text-o-blue hover:underline text-nowrap">Hongyang Li</a><sup className="align-super text-sm">2</sup>,{' '}
+                                <a href="https://www.cvlibs.net/" className="text-o-blue hover:underline text-nowrap">Andreas Geiger</a><sup className="align-super text-sm">7</sup>,{' '}
+                                <a href="https://xyue.io/" className="text-o-blue hover:underline text-nowrap">Xiangyu Yue</a><sup className="align-super text-sm">1</sup>,{' '}
+                                <a href="https://scholar.google.com/citations?user=ulZxvY0AAAAJ&hl=en" className="text-o-blue hover:underline text-nowrap">Li Chen</a><sup className="align-super text-sm">2,3</sup>{' '}
                             </h2>
-                            <h2 className="w-full leading-loose">
-                                <sup className="align-super text-sm">1</sup>The Chinese University of Hong Kong {'  '}
-                                <sup className="align-super text-sm">2</sup>The University of Hong Kong {'  '}
-                                <sup className="align-super text-sm">3</sup>OpenDriveLab at Shanghai AI Lab {'  '}
-                                <sup className="align-super text-sm">4</sup>NVIDIA Research {'  '}
-                                <sup className="align-super text-sm">5</sup>Xiaomi EV {'  '}
-                                <sup className="align-super text-sm">6</sup>Shanghai Jiao Tong University {'  '}
-                                <sup className="align-super text-sm">7</sup>University of Tübingen, Tübingen AI Center {'  '}
-                                <sup className="align-super text-sm">8</sup>HKUST {'  '}
+                            <h2 className="w-full leading-loose flex gap-1 flex-wrap">
+                                <span className="text-nowrap"><sup className="align-super text-sm text-nowrap">1</sup>The Chinese University of Hong Kong {'  '}</span>
+                                <span className="text-nowrap"><sup className="align-super text-sm text-nowrap">2</sup>The University of Hong Kong {'  '}</span>
+                                <span className="text-nowrap"><sup className="align-super text-sm text-nowrap">3</sup>OpenDriveLab at Shanghai AI Lab {'  '}</span>
+                                <span className="text-nowrap"><sup className="align-super text-sm text-nowrap">4</sup>NVIDIA Research {'  '}</span>
+                                <span className="text-nowrap"><sup className="align-super text-sm text-nowrap">5</sup>Xiaomi EV {'  '}</span>
+                                <span className="text-nowrap"><sup className="align-super text-sm text-nowrap">6</sup>Shanghai Jiao Tong University {'  '}</span>
+                                <span className="text-nowrap"><sup className="align-super text-sm text-nowrap">7</sup>University of Tübingen, Tübingen AI Center {'  '}</span>
+                                <span className="text-nowrap"><sup className="align-super text-sm text-nowrap">8</sup>HKUST {'  '}</span>
                             </h2>
-                        <div className="flex flex-wrap gap-3">
+                        </div>
+                        <div className="flex flex-wrap gap-6">
                             <a
                                 href=""    //  TODO: link
                                 target="_blank"
@@ -94,7 +95,6 @@ export default function Home() {
                                 />
                                 Code in July
                             </a>
-                        </div>
                         </div>
                     </div>
                 </div>
