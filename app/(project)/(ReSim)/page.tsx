@@ -114,7 +114,7 @@ export default function Home() {
                             autoPlay
                             muted
                             playsInline
-                            className="max-w-6xl"
+                            className="max-w-5xl"
                             >
                             <source src="https://opendrivelab.github.io/ReSim/mp4/teaser1_gif.mp4"/>
                             {/* <source src="https://opendrivelab.github.io/ReSim/action_control/Waymo1.mp4"/> */}
