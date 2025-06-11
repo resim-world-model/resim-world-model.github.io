@@ -26,7 +26,8 @@ export default function Home() {
                 <div className="flex-1/2 h-1/3 w-full xl:h-full flex flex-col justify-center select-none">
                     <AspectRatio ratio={16/9}>
                         <Image
-                            src="https://ik.imagekit.io/opendrivelab/univla"
+                            // src="https://ik.imagekit.io/opendrivelab/univla"
+                            src="https://ik.imagekit.io/opendrivelab/resim.jpg"
                             alt="ReSim"
                             fill
                             className="rounded-sm object-cover bg-gradient-landing"
