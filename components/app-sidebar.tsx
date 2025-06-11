@@ -79,7 +79,7 @@ export function AppSidebar() {
                     <SidebarMenu className="mb-12 px-8 text-xs overflow-y-scroll no-scrollbar">
 
                         <Link href="#introduction"  className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
-                            Introduction
+                            Overview
                         </Link>
                         
                         <Link  href="#action_control_waymo"  className="p-2 rounded-sm hover:bg-o-blue/3 select-none">
