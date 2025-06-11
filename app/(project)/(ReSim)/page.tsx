@@ -132,42 +132,8 @@ export default function Home() {
 
 
 
-            <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-22">
-                <h1 className="text-4xl font-bold scroll-mt-32" id="action_control_nuscenes">
-                    Action-Controlled Future Prediction
-                </h1>
-                <h1 className="text-2xl">
-                    nuScenes (Zero-shot)
-                </h1>
-            </div>
 
-
-
-            <div className="w-full px-6 flex flex-col justify-center gap-20 items-center">
-                <video
-                    preload="none"
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    className="w-full max-w-7xl rounded-sm bg-gradient-landing"
-                    >
-                    <source src="https://opendrivelab.github.io/ReSim/action_control/nuScenes1.mp4"/>
-                </video>
-                <video
-                    preload="none"
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    className="w-full max-w-7xl rounded-sm bg-gradient-landing"
-                    >
-                    <source src="https://opendrivelab.github.io/ReSim/action_control/nuScenes2.mp4"/>
-                </video>
-            </div>
-
-
-
+            {/* waymo */}
             <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-22">
                 <h1 className="text-4xl font-bold scroll-mt-32" id="action_control_waymo">
                     Action-Controlled Future Prediction
@@ -199,6 +165,42 @@ export default function Home() {
                     className="w-full max-w-7xl rounded-sm bg-gradient-landing"
                     >
                         <source src="https://opendrivelab.github.io/ReSim/action_control/Waymo2.mp4"/>
+                </video>
+            </div>
+
+        
+            {/* nus */}
+            <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-22">
+                <h1 className="text-4xl font-bold scroll-mt-32" id="action_control_nuscenes">
+                    Action-Controlled Future Prediction
+                </h1>
+                <h1 className="text-2xl">
+                    nuScenes (Zero-shot)
+                </h1>
+            </div>
+
+
+
+            <div className="w-full px-6 flex flex-col justify-center gap-20 items-center">
+                <video
+                    preload="none"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="w-full max-w-7xl rounded-sm bg-gradient-landing"
+                    >
+                    <source src="https://opendrivelab.github.io/ReSim/action_control/nuScenes1.mp4"/>
+                </video>
+                <video
+                    preload="none"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="w-full max-w-7xl rounded-sm bg-gradient-landing"
+                    >
+                    <source src="https://opendrivelab.github.io/ReSim/action_control/nuScenes2.mp4"/>
                 </video>
             </div>
 
