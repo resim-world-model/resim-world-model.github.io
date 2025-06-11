@@ -62,6 +62,7 @@ export default function Home() {
                             <sup className="align-super text-sm">3</sup>OpenDriveLab at Shanghai AI Lab {'  '}
                             <sup className="align-super text-sm">4</sup>NVIDIA Research {'  '}
                             <sup className="align-super text-sm">5</sup>Xiaomi EV {'  '}
+                            <br/>
                             <sup className="align-super text-sm">6</sup>Shanghai Jiao Tong University {'  '}
                             <sup className="align-super text-sm">7</sup>University of Tübingen, Tübingen AI Center {'  '}
                             <sup className="align-super text-sm">8</sup>HKUST {'  '}
@@ -76,13 +77,13 @@ export default function Home() {
                             <Image
                               src="https://opendrivelab.github.io/ReSim/figs/arxiv2.png"
                               alt=""
-                              width={20}
+                              width={15}
                               height={10}
                             />
                             arXiv
                           </a>
                           <a
-                            href=""    //  TODO: link
+                            href="https://github.com/OpenDriveLab/ReSim"    //  TODO: link
                             target="_blank"
                             rel="noreferrer"
                             className="flex items-center gap-2 bg-gray-800 text-white rounded-full px-4 py-2 text-sm hover:bg-gray-700 transition"
@@ -90,7 +91,7 @@ export default function Home() {
                             <Image
                               src="https://opendrivelab.github.io/ReSim/figs/github.png"
                               alt=""
-                              width={20}
+                              width={25}
                               height={10}
                             />
                             Code in July
