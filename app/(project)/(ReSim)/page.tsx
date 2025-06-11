@@ -22,8 +22,8 @@ export default function Home() {
 
 
 
-            <div className="w-full h-screen flex flex-col xl:flex-row gap-10 xl:gap-20 justify-center md:justify-end  xl:justify-center items-center p-20  xl:pt-20  ">
-                <div className="flex-1/2 md:flex-2/5 xl:flex-1/2 h-1/3 w-full xl:h-full flex flex-col justify-center select-none">
+            <div className="w-full h-screen flex flex-col xl:flex-row gap-10 xl:gap-20  justify-around  xl:justify-center items-center p-20    ">
+                <div className="flex-1/2 h-1/3 w-full xl:h-full flex flex-col justify-center select-none">
                     <AspectRatio ratio={16/9}>
                         <Image
                             // src="https://ik.imagekit.io/opendrivelab/univla"
@@ -34,7 +34,7 @@ export default function Home() {
                         />
                     </AspectRatio>
                 </div>
-                <div className="flex-1/2 md:flex-3/5 xl:flex-1/2 flex flex-col gap-3 xl:justify-around">
+                <div className="flex-1/2 flex flex-col gap-3 xl:justify-around">
                     <div className="flex flex-col gap-8 w-full">
                         <div className="flex flex-col gap-3">
                             <h1 className="text-7xl 3xl:text-8xl font-bold w-full color-text-1">
