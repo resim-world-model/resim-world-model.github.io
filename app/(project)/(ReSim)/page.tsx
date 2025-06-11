@@ -106,7 +106,7 @@ export default function Home() {
                     Overview
                 </h1>
             </div>
-            <div className="flex flex-row justify-center px-6 ">
+            <div className="w-full flex flex-row justify-center px-6 ">
                 <div className="max-w-4xl rounded-sm bg-gradient-landing">
                         <video
                             preload="none"
