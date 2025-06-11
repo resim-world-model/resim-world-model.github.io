@@ -120,7 +120,7 @@ export default function Home() {
                     </div>
                 </div>
             <div className="flex flex-row justify-center px-6 mt-20">
-                <p className="max-w-4xl text-bl text-justify leading-loose">
+                <p className="max-w-4xl text-bl text-justify leading-relaxed xl:leading-loose">
                     How can we reliably simulate future driving scenarios under a wide range of
                     ego driving behaviors? Recent driving world models, developed exclusively on
                     real-world driving data composed mainly of safe expert trajectories, struggle to
