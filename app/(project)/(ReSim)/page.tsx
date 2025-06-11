@@ -101,27 +101,26 @@ export default function Home() {
             </div>
 
 
-            <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-22">
+            <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-32">
                 <h1 className="text-4xl font-bold scroll-mt-32" id="introduction">
                     Overview
                 </h1>
             </div>
             <div className="flex flex-row justify-center px-6 ">
-                <div className="max-w-7xl rounded-sm bg-gradient-landing">
+                <div className="max-w-4xl rounded-sm bg-gradient-landing">
                         <video
                             preload="none"
                             autoPlay
                             muted
                             playsInline
-                            className="max-w-5xl"
                             >
                             <source src="https://opendrivelab.github.io/ReSim/mp4/teaser1_gif.mp4"/>
                             {/* <source src="https://opendrivelab.github.io/ReSim/action_control/Waymo1.mp4"/> */}
                         </video>
                     </div>
                 </div>
-            <div className="flex flex-row justify-center px-6 ">
-                <p className="max-w-4xl text-bl text-justify leading-relaxed">
+            <div className="flex flex-row justify-center px-6 mt-20">
+                <p className="max-w-4xl text-bl text-justify leading-loose">
                     How can we reliably simulate future driving scenarios under a wide range of
                     ego driving behaviors? Recent driving world models, developed exclusively on
                     real-world driving data composed mainly of safe expert trajectories, struggle to
@@ -147,7 +146,7 @@ export default function Home() {
 
 
             {/* waymo */}
-            <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-22">
+            <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-32">
                 <h1 className="text-4xl font-bold scroll-mt-32" id="action_control_waymo">
                     Action-Controlled Future Prediction
                 </h1>
@@ -183,7 +182,7 @@ export default function Home() {
 
         
             {/* nus */}
-            <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-22">
+            <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-32">
                 <h1 className="text-4xl font-bold scroll-mt-32" id="action_control_nuscenes">
                     Action-Controlled Future Prediction
                 </h1>
@@ -219,7 +218,7 @@ export default function Home() {
 
 
 
-            <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-22">
+            <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-32">
                 <h1 className="text-4xl font-bold scroll-mt-32" id="comparison">
                     Comparison of Action Controllability
                 </h1>
@@ -289,7 +288,7 @@ export default function Home() {
             </div>
             <DouDoubleTabSelector/> */}
             
-            <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-22">
+            <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-32">
                 <h1 className="text-4xl font-bold scroll-mt-32" id="action_free">
                     Action-free Future Prediction
                 </h1>
@@ -298,7 +297,7 @@ export default function Home() {
 
 
             <div className="w-full px-6 flex flex-col justify-center gap-20 items-center">
-                <div className="w-full max-w-7xl flex flex-row gap-20">
+                <div className="w-full max-w-7xl flex flex-col 2xl:flex-row gap-6 2xl:gap-20">
                     <div className="flex flex-col justify-center items-center min-w-[128px]">
                         <h2 className="text-2xl text-center">
                             NAVSIM
@@ -317,7 +316,7 @@ export default function Home() {
                         </video>
                     </div>
                 </div>
-                <div className="w-full max-w-7xl flex flex-row gap-20">
+                <div className="w-full max-w-7xl flex flex-col 2xl:flex-row gap-6 2xl:gap-20">
                     <div className="flex flex-col justify-center items-center min-w-[128px]">
                         <h2 className="text-2xl text-center">
                             nuScenes
@@ -336,7 +335,7 @@ export default function Home() {
                         </video>
                     </div>
                 </div>
-                <div className="w-full max-w-7xl flex flex-row gap-20">
+                <div className="w-full max-w-7xl flex flex-col 2xl:flex-row gap-6 2xl:gap-20">
                     <div className="flex flex-col justify-center items-center min-w-[128px]">
                         <h2 className="text-2xl text-center">
                             Waymo
