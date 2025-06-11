@@ -358,11 +358,11 @@ export default function Home() {
 
 
 
-            <footer className="w-full mb-24 flex flex-col gab-10  ">
-                <div className="w-full pl-6 pr-6 flex flex-row justify-center mt-24">
+            <footer className="w-full mb-24 flex flex-col gab-10  mt-32">
+                <div className="w-full pl-6 pr-6 flex flex-row justify-center">
                     <div className="max-w-4xl w-full flex flex-row justify-between">
                         <div className="flex-1 flex flex-col justify-start">
-                            <span className="select-none">Resim © 2025</span>
+                            <span className="select-none">ReSim © 2025</span>
                         </div>
                     </div>
                 </div>
