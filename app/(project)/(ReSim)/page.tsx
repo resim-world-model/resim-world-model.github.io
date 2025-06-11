@@ -104,9 +104,23 @@ export default function Home() {
 
             <div className="w-full flex flex-col justify-center items-center gap-3 px-6 my-22">
                 <h1 className="text-4xl font-bold scroll-mt-32" id="introduction">
-                    Abstract
+                    Overview
                 </h1>
             </div>
+            <div className="flex flex-row justify-center px-6 ">
+                <div className="max-w-7xl rounded-sm bg-gradient-landing">
+                        <video
+                            preload="none"
+                            autoPlay
+                            muted
+                            playsInline
+                            className="max-w-6xl"
+                            >
+                            <source src="https://opendrivelab.github.io/ReSim/mp4/teaser1_gif.mp4"/>
+                            {/* <source src="https://opendrivelab.github.io/ReSim/action_control/Waymo1.mp4"/> */}
+                        </video>
+                    </div>
+                </div>
             <div className="flex flex-row justify-center px-6 ">
                 <p className="max-w-4xl text-bl text-justify leading-relaxed">
                     How can we reliably simulate future driving scenarios under a wide range of
