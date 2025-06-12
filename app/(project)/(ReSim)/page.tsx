@@ -55,7 +55,7 @@ export default function Home() {
                                 <a href="https://lihongyang.info/" className="text-o-blue hover:underline text-nowrap">Hongyang Li</a><sup className="align-super text-sm">2</sup>,{' '}
                                 <a href="https://www.cvlibs.net/" className="text-o-blue hover:underline text-nowrap">Andreas Geiger</a><sup className="align-super text-sm">7</sup>,{' '}
                                 <a href="https://xyue.io/" className="text-o-blue hover:underline text-nowrap">Xiangyu Yue</a><sup className="align-super text-sm">1</sup>,{' '}
-                                <a href="https://scholar.google.com/citations?user=ulZxvY0AAAAJ&hl=en" className="text-o-blue hover:underline text-nowrap">Li Chen</a><sup className="align-super text-sm">2,3</sup>{' '}
+                                <a href="https://ilnehc.github.io/" className="text-o-blue hover:underline text-nowrap">Li Chen</a><sup className="align-super text-sm">2,3</sup>{' '}
                             </h2>
                             <h2 className="w-full leading-loose flex gap-1 flex-wrap">
                                 <span className="text-nowrap"><sup className="align-super text-sm text-nowrap">1</sup>The Chinese University of Hong Kong {'  '}</span>
@@ -114,7 +114,7 @@ export default function Home() {
                             muted
                             playsInline
                             >
-                            <source src="https://opendrivelab.github.io/ReSim/mp4/teaser1_gif.mp4"/>
+                            <source src="https://opendrivelab.github.io/ReSim/mp4/teaser1.mp4"/>
                             {/* <source src="https://opendrivelab.github.io/ReSim/action_control/Waymo1.mp4"/> */}
                         </video>
                     </div>
